@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="charGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4"/>
+      <stop offset="100%" style="stop-color:#0891B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="32" fill="url(#charGrad)"/>
+  <path d="M100 55 L130 80 L120 115 L100 125 L80 115 L70 80 Z" fill="white" opacity="0.95"/>
+  <path d="M88 90 L97 100 L115 78" stroke="#0891B2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="100" y="152" font-family="Arial Black, sans-serif" font-size="19" font-weight="900" fill="white" text-anchor="middle" dominant-baseline="middle">CHARGILY</text>
+  <text x="100" y="174" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.7)" text-anchor="middle" dominant-baseline="middle">PAY</text>
+</svg>

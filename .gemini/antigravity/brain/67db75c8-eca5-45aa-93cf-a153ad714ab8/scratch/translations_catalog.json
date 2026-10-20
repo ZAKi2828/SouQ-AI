@@ -1,0 +1,2814 @@
+{
+  "${daysLeft} أيام": {
+    "en": "${daysLeft} days",
+    "fr": "${daysLeft} jours"
+  },
+  "({Math.floor(Math.random() * 200 + 50)} تقييم)": {
+    "en": "({Math.floor(Math.random() * 200 + 50)} Evaluation)",
+    "fr": "(Évaluation {Math.floor(Math.random() * 200 + 50)})"
+  },
+  "({overview.free_merchants} {isRtl ? 'تاجر' : 'merchants'})": {
+    "en": "( {overview.free_merchants} {isRtl ? 'تاجر' : 'merchants'} )",
+    "fr": "( {overview.free_merchants} {isRtl ? 'تاجر' : 'merchants'} )"
+  },
+  "({overview.pro_count} {isRtl ? 'تاجر' : 'merchants'})": {
+    "en": "( {overview.pro_count} {isRtl ? 'تاجر' : 'merchants'} )",
+    "fr": "( {overview.pro_count} {isRtl ? 'تاجر' : 'merchants'} )"
+  },
+  "({overview.vip_count} {isRtl ? 'تاجر' : 'merchants'})": {
+    "en": "( {overview.vip_count} {isRtl ? 'تاجر' : 'merchants'} )",
+    "fr": "( {overview.vip_count} {isRtl ? 'تاجر' : 'merchants'} )"
+  },
+  "* بعد طلب الشراء، سنتواصل معك لإتمام عملية الدفع وتفعيل الدومين على متجرك": {
+    "en": "* After ordering, we will contact you to complete the payment process and activate the domain on your store",
+    "fr": "* Après la commande, nous vous contacterons pour finaliser le processus de paiement et activer le domaine sur votre boutique"
+  },
+  "/images/اريد_ان_تصنع_لي_فيديو_احترافي.mp4": {
+    "en": "/images/I want_you_to_make_me_a_professional_video.mp4",
+    "fr": "/images/Je veux_vous_faire_me_a_professional_video.mp4"
+  },
+  "1,200 د.ج": {
+    "en": "1,200 DZD",
+    "fr": "1 200 DA"
+  },
+  "1,500 د.ج": {
+    "en": "1,500 DZD",
+    "fr": "1 500 DA"
+  },
+  "14,900 د.ج": {
+    "en": "14,900 DZD",
+    "fr": "14 900 DA"
+  },
+  "19,500 د.ج": {
+    "en": "19,500 DZD",
+    "fr": "19 500 DA"
+  },
+  "2,990 د.ج": {
+    "en": "2,990 DZD",
+    "fr": "2 990 DA"
+  },
+  "3 أعمدة": {
+    "en": "3 columns",
+    "fr": "3 colonnes"
+  },
+  "4 أعمدة": {
+    "en": "4 columns",
+    "fr": "4 colonnes"
+  },
+  "4,500 د.ج": {
+    "en": "4,500 DZD",
+    "fr": "4 500 DA"
+  },
+  "4.9 (127 تقييم)": {
+    "en": "4.9 (127 reviews)",
+    "fr": "4,9 (127 avis)"
+  },
+  "5,900 د.ج": {
+    "en": "5,900 DZD",
+    "fr": "5 900 DA"
+  },
+  "5,990 د.ج": {
+    "en": "5,990 DZD",
+    "fr": "5 990 DA"
+  },
+  "6,200 د.ج": {
+    "en": "6,200 DZD",
+    "fr": "6 200 DA"
+  },
+  "8,500 د.ج": {
+    "en": "8,500 DZD",
+    "fr": "8 500 DA"
+  },
+  "8,900 د.ج": {
+    "en": "8,900 DZD",
+    "fr": "8 900 DA"
+  },
+  "A Record (سجل A)": {
+    "en": "A Record",
+    "fr": "Un record"
+  },
+  "CNAME Record (سجل CNAME)": {
+    "en": "CNAME Record",
+    "fr": "Enregistrement CNAME"
+  },
+  "GMV عبر المنصة": {
+    "en": "GMV across the platform",
+    "fr": "GMV sur toute la plateforme"
+  },
+  "a + b, 0).toLocaleString()} د.ج": {
+    "en": "a + b, 0).toLocaleString()} d.c",
+    "fr": "a + b, 0).toLocaleString()} d.c"
+  },
+  "a + b, 0)} طلب": {
+    "en": "a + b, 0)} request",
+    "fr": "a + b, 0)} demande"
+  },
+  "s + (Number(o.total_price) || 0), 0).toLocaleString()} د.ج إجمالي": {
+    "en": "s + (Number(o.total_price) || 0), 0).toLocaleString()} JD Total",
+    "fr": "s + (Number(o.total_price) || 0), 0).toLocaleString()} JD Total"
+  },
+  "© 2026 ${platformName}. جميع الحقوق محفوظة.": {
+    "en": "© 2026 ${platformName} . All rights reserved.",
+    "fr": "© 2026 ${platformName} . Tous droits réservés."
+  },
+  "© 2026 SOUQ AI. جميع الحقوق محفوظة.": {
+    "en": "© 2026 SOUQ AI. All rights reserved.",
+    "fr": "© 2026 SOUQ AI. Tous droits réservés."
+  },
+  "© {new Date().getFullYear()} {product?.hide_branding ? product?.storeName : 'SOUQ AI'}. جميع الحقوق محفوظة.": {
+    "en": "© {new Date().getFullYear()} {product?.hide_branding ? product?.storeName : 'SOUQ AI'} . All rights reserved.",
+    "fr": "© {new Date().getFullYear()} {product?.hide_branding ? product?.storeName : 'SOUQ AI'} . Tous droits réservés."
+  },
+  "© {new Date().getFullYear()} {product?.storeName || 'SOUQ AI'}. جميع الحقوق محفوظة.": {
+    "en": "© {new Date().getFullYear()} {product?.storeName || 'SOUQ AI'} . All rights reserved.",
+    "fr": "© {new Date().getFullYear()} {product?.storeName || 'SOUQ AI'} . Tous droits réservés."
+  },
+  "© {new Date().getFullYear()} جميع الحقوق محفوظة.": {
+    "en": "© {new Date().getFullYear()} All rights reserved.",
+    "fr": "© {new Date().getFullYear()} Tous droits réservés."
+  },
+  "آخر 30 يوم": {
+    "en": "Last 30 days",
+    "fr": "30 derniers jours"
+  },
+  "أحدث منتجاتنا الحصرية": {
+    "en": "Our latest exclusive products",
+    "fr": "Nos derniers produits exclusifs"
+  },
+  "أدخل الرمز المرسل إلى بريدك الإلكتروني": {
+    "en": "Enter the code sent to your email",
+    "fr": "Entrez le code envoyé à votre email"
+  },
+  "أدخل بريدك الإلكتروني لتلقي رمز التعيين": {
+    "en": "Enter your email to receive the appointment code",
+    "fr": "Entrez votre email pour recevoir le code de rendez-vous"
+  },
+  "أدخل بياناتك الآن وسنقوم بتوصيل طلبك في أسرع وقت.": {
+    "en": "Enter your information now and we will deliver your order as quickly as possible.",
+    "fr": "Entrez vos informations maintenant et nous livrerons votre commande le plus rapidement possible."
+  },
+  "أدخل كلمة المرور الجديدة لحسابك": {
+    "en": "Enter the new password for your account",
+    "fr": "Entrez le nouveau mot de passe de votre compte"
+  },
+  "أدخل معلوماتك بالأسفل وسنتواصل معك لتأكيد الشحن": {
+    "en": "Enter your information below and we will contact you to confirm shipping",
+    "fr": "Entrez vos informations ci-dessous et nous vous contacterons pour confirmer l'expédition"
+  },
+  "أدخل معلوماتك وسنتصل بك للتأكيد": {
+    "en": "Enter your information and we will contact you to confirm",
+    "fr": "Entrez vos informations et nous vous contacterons pour confirmer"
+  },
+  "أدوات التتبع الإعلاني": {
+    "en": "Advertising tracking tools",
+    "fr": "Outils de suivi publicitaire"
+  },
+  "أدوات تسويق": {
+    "en": "Marketing tools",
+    "fr": "Outils marketing"
+  },
+  "أضف أول منتج": {
+    "en": "Add the first product",
+    "fr": "Ajouter le premier produit"
+  },
+  "أضف أول منتجاتك للمتجر من لوحة التحكم": {
+    "en": "Add your first products to the store from the control panel",
+    "fr": "Ajoutez vos premiers produits à la boutique depuis le panneau de configuration"
+  },
+  "أضف اسم المتجر، الوصف، الشعار ومعلومات التواصل": {
+    "en": "Add the store name, description, logo and contact information",
+    "fr": "Ajoutez le nom du magasin, la description, le logo et les coordonnées"
+  },
+  "أضف رموزاً خاصة (!@#$) لزيادة الأمان": {
+    "en": "Add special characters (@#$) to increase security",
+    "fr": "Ajoutez des caractères spéciaux (@#$) pour augmenter la sécurité"
+  },
+  "أضف كود الـ CSS المخصص لمتجرك": {
+    "en": "Add custom CSS code to your store",
+    "fr": "Ajoutez du code CSS personnalisé à votre boutique"
+  },
+  "أضف منتجاً واحداً على الأقل لبدء البيع": {
+    "en": "Add at least one product to start selling",
+    "fr": "Ajoutez au moins un produit pour commencer à vendre"
+  },
+  "أطلب الآن": {
+    "en": "Order now",
+    "fr": "Commandez maintenant"
+  },
+  "أطلق أحمد من الجزائر العاصمة متجره لبيع العطور بنجاح! 🚀": {
+    "en": "Ahmed from Algiers successfully launched his perfume store! 🚀",
+    "fr": "Ahmed d'Alger a lancé avec succès sa parfumerie ! 🚀"
+  },
+  "أطلق كريم من قسنطينة صفحة هبوط مبيعات ذكية بنجاح! 🔥": {
+    "en": "Careem from Constantine successfully launched a smart sales landing page! 🔥",
+    "fr": "Careem de Constantine a lancé avec succès une landing page de vente intelligente ! 🔥"
+  },
+  "أعضاء الفريق": {
+    "en": "Team members",
+    "fr": "Membres de l'équipe"
+  },
+  "أعضاء فريق": {
+    "en": "Team members",
+    "fr": "Membres de l'équipe"
+  },
+  "أعمدة المنتجات في الجوال": {
+    "en": "Product columns in mobile",
+    "fr": "Colonnes de produits sur mobile"
+  },
+  "أعمدة المنتجات في الكمبيوتر": {
+    "en": "Product columns in computer",
+    "fr": "Colonnes de produits dans l'ordinateur"
+  },
+  "أفضل المنتجات الحصرية بأسعار لا تقاوم وتوصيل مجاني": {
+    "en": "The best exclusive products at irresistible prices and free delivery",
+    "fr": "Les meilleurs produits exclusifs à des prix irrésistibles et livraison gratuite"
+  },
+  "أكمل معلومات متجرك": {
+    "en": "Complete your store information",
+    "fr": "Complétez les informations de votre magasin"
+  },
+  "ألوان استمارة الطلب": {
+    "en": "Application form colours",
+    "fr": "Couleurs du formulaire de candidature"
+  },
+  "ألوان الأسعار والتخفيضات": {
+    "en": "Colors, prices and discounts",
+    "fr": "Couleurs, prix et réductions"
+  },
+  "أمس": {
+    "en": "Yesterday",
+    "fr": "Hier"
+  },
+  "أنت الآن على الخطة المجانية. قم بالترقية الآن لفتح مميزات متقدمة ومبيعات أكثر!": {
+    "en": "You are now on the free plan. Upgrade now to unlock advanced features and more sales!",
+    "fr": "Vous êtes désormais sur le forfait gratuit. Mettez à niveau maintenant pour débloquer des fonctionnalités avancées et plus de ventes !"
+  },
+  "أنشئ متجرك مجاناً بخطوات بسيطة": {
+    "en": "Create your store for free in simple steps",
+    "fr": "Créez votre boutique gratuitement en quelques étapes simples"
+  },
+  "أنظمة دفع": {
+    "en": "Payment systems",
+    "fr": "Systèmes de paiement"
+  },
+  "أهلاً بك في ${platformName} يا ${name}!": {
+    "en": "Welcome to ${platformName} or ${name}!",
+    "fr": "Bienvenue à ${platformName} ou ${name} !"
+  },
+  "أهلاً بك في متجرنا": {
+    "en": "Welcome to our store",
+    "fr": "Bienvenue dans notre magasin"
+  },
+  "أهلاً بك في متجرنا المميز 📦": {
+    "en": "Welcome to our distinguished store 📦",
+    "fr": "Bienvenue dans notre magasin distingué 📦"
+  },
+  "أو عبر": {
+    "en": "Or via",
+    "fr": "Ou via"
+  },
+  "إتمام الطلب السريع": {
+    "en": "Quick order completion",
+    "fr": "Exécution rapide de la commande"
+  },
+  "إجمالي": {
+    "en": "Total",
+    "fr": "Total"
+  },
+  "إجمالي الأسبوع:": {
+    "en": "Week total:",
+    "fr": "Total de la semaine :"
+  },
+  "إجمالي الإيرادات": {
+    "en": "Total revenue",
+    "fr": "Revenu total"
+  },
+  "إجمالي الإيرادات الشهرية": {
+    "en": "Total monthly revenue",
+    "fr": "Revenu mensuel total"
+  },
+  "إجمالي التجار": {
+    "en": "Total traders",
+    "fr": "Total des commerçants"
+  },
+  "إجمالي الطلبات": {
+    "en": "Total orders",
+    "fr": "Total des commandes"
+  },
+  "إجمالي المبيعات": {
+    "en": "Total sales",
+    "fr": "Ventes totales"
+  },
+  "إحصائيات التحويل 📊": {
+    "en": "Conversion statistics 📊",
+    "fr": "Statistiques de conversion 📊"
+  },
+  "إخفاء الدليل": {
+    "en": "Hide the directory",
+    "fr": "Masquer le répertoire"
+  },
+  "إدارة الاتصالات 📞": {
+    "en": "Communications Management 📞",
+    "fr": "Gestion des communications 📞"
+  },
+  "إدارة التجار": {
+    "en": "Dealer management",
+    "fr": "Gestion du concessionnaire"
+  },
+  "إدارة الحظر": {
+    "en": "Ban management",
+    "fr": "Gestion des bannissements"
+  },
+  "إدارة الدومينات": {
+    "en": "Domain management",
+    "fr": "Gestion de domaine"
+  },
+  "إدارة المنتجات والمخزون": {
+    "en": "Product and inventory management",
+    "fr": "Gestion des produits et des stocks"
+  },
+  "إدارة شاملة للاشتراكات والمدفوعات": {
+    "en": "Comprehensive management of subscriptions and payments",
+    "fr": "Gestion complète des abonnements et des paiements"
+  },
+  "إدارة شاملة للتجار والمتاجر والاشتراكات": {
+    "en": "Comprehensive management of merchants, stores and subscriptions",
+    "fr": "Gestion complète des commerçants, des magasins et des abonnements"
+  },
+  "إذا لم يكن لديك حساب، قم بالتسجيل بنفس البريد الإلكتروني": {
+    "en": "If you do not have an account, register with the same email",
+    "fr": "Si vous n'avez pas de compte, inscrivez-vous avec le même email"
+  },
+  "إرسال إشعار عند ترك نموذج": {
+    "en": "Send a notification when a form is left",
+    "fr": "Envoyer une notification lorsqu'un formulaire est laissé"
+  },
+  "إرسال الدعوة بالبريد الإلكتروني": {
+    "en": "Send the invitation by email",
+    "fr": "Envoyez l'invitation par email"
+  },
+  "إرسال الرمز": {
+    "en": "Send code",
+    "fr": "Envoyer le code"
+  },
+  "إرسال بيانات التحويل فائق الدقة متجاوزاً تحديثات iOS 14+ لتيك توك.": {
+    "en": "Send HD conversion data bypass iOS 14+ updates for TikTok.",
+    "fr": "Envoyez des données de conversion HD en contournant les mises à jour iOS 14+ pour TikTok."
+  },
+  "إظهار النجوم والتقييمات على كروت المنتجات": {
+    "en": "Show stars and ratings on product cards",
+    "fr": "Afficher les étoiles et les notes sur les fiches produits"
+  },
+  "إظهار مفتاح تبديل الوضع الداكن": {
+    "en": "Show dark mode toggle switch",
+    "fr": "Afficher l'interrupteur à bascule du mode sombre"
+  },
+  "إعداد التوصيل": {
+    "en": "Connection setup",
+    "fr": "Configuration de la connexion"
+  },
+  "إعدادات الذكاء الاصطناعي": {
+    "en": "Artificial intelligence settings",
+    "fr": "Paramètres d'intelligence artificielle"
+  },
+  "إلغاء التغييرات": {
+    "en": "Cancel changes",
+    "fr": "Annuler les modifications"
+  },
+  "إلغاء الحظر": {
+    "en": "Unblock",
+    "fr": "Débloquer"
+  },
+  "إنشاء الفاتورة": {
+    "en": "Create invoice",
+    "fr": "Créer une facture"
+  },
+  "إنشاء حساب جديد": {
+    "en": "Create a new account",
+    "fr": "Créer un nouveau compte"
+  },
+  "إنشاء فاتورة": {
+    "en": "Create an invoice",
+    "fr": "Créer une facture"
+  },
+  "إيراد الأسبوع:": {
+    "en": "Weekly revenue:",
+    "fr": "Revenu hebdomadaire :"
+  },
+  "ابحث بالاسم أو المتجر...": {
+    "en": "Search by name or store...",
+    "fr": "Rechercher par nom ou par magasin..."
+  },
+  "ابحث بالاسم، المتجر، أو النطاق...": {
+    "en": "Search by name, store, or domain...",
+    "fr": "Recherchez par nom, magasin ou domaine..."
+  },
+  "ابحث عن دومين متاح واطلب شراءه — نتكفل بالباقي!": {
+    "en": "Find an available domain and request to purchase it — we take care of the rest!",
+    "fr": "Trouvez un domaine disponible et demandez-le, nous nous occupons du reste !"
+  },
+  "ابحث عن منتج، عميل، أو رقم طلب...": {
+    "en": "Search for a product, customer, or order number...",
+    "fr": "Rechercher un produit, un client ou un numéro de commande..."
+  },
+  "ابدأ الآن": {
+    "en": "Start now",
+    "fr": "Commencez maintenant"
+  },
+  "اتصال فوري": {
+    "en": "Instant connection",
+    "fr": "Connexion instantanée"
+  },
+  "اجمع بين الحروف الكبيرة والصغيرة والأرقام": {
+    "en": "Combine uppercase and lowercase letters and numbers",
+    "fr": "Combinez des lettres et des chiffres majuscules et minuscules"
+  },
+  "احتمال احتيال (بانتظار المراجعة)": {
+    "en": "Possible fraud (pending review)",
+    "fr": "Fraude possible (en attente d'examen)"
+  },
+  "اختر ألوان المتجر، صورة البانر ونص الإعلان": {
+    "en": "Choose store colours, banner image and ad text",
+    "fr": "Choisissez les couleurs du magasin, l'image de la bannière et le texte de l'annonce"
+  },
+  "اختر التاجر...": {
+    "en": "Choose the merchant...",
+    "fr": "Choisissez le commerçant..."
+  },
+  "اختر تدرجاً لونياً جذاباً": {
+    "en": "Choose an attractive color gradient",
+    "fr": "Choisissez un dégradé de couleurs attrayant"
+  },
+  "اختر خطة وجدد اشتراكك لاستعادة الوصول للوحة التحكم": {
+    "en": "Choose a plan and renew your subscription to regain access to the Control Panel",
+    "fr": "Choisissez un forfait et renouvelez votre abonnement pour retrouver l'accès au panneau de contrôle"
+  },
+  "ادخل اسم الدومين المطلوب (مثال: mystore)": {
+    "en": "Enter the desired domain name (example: mystore)",
+    "fr": "Saisissez le nom de domaine souhaité (exemple : mystore)"
+  },
+  "اربط دومين تملكه بالفعل مع متجرك": {
+    "en": "Link a domain you already own to your store",
+    "fr": "Liez un domaine que vous possédez déjà à votre boutique"
+  },
+  "اربط دومينك الخاص أو اشترِ دوميناً جديداً لمتجرك": {
+    "en": "Link your own domain or buy a new domain for your store",
+    "fr": "Liez votre propre domaine ou achetez un nouveau domaine pour votre boutique"
+  },
+  "استخدم 6 أحرف على الأقل": {
+    "en": "Use at least 6 characters",
+    "fr": "Utilisez au moins 6 caractères"
+  },
+  "استرجاع النماذج المتروكة": {
+    "en": "Retrieve abandoned forms",
+    "fr": "Récupérer les formulaires abandonnés"
+  },
+  "استرجع العملاء الذين تركوا النموذج بكتابة رقم الهاتف فقط. نظام تتبع تلقائي للاتصال بهم هاتفياً.": {
+    "en": "Recover customers who left the form by just typing the phone number. An automatic tracking system to contact them by phone.",
+    "fr": "Récupérez les clients qui ont quitté le formulaire en tapant simplement le numéro de téléphone. Un système de suivi automatique pour les contacter par téléphone."
+  },
+  "اسم الدومين": {
+    "en": "Domain name",
+    "fr": "Nom de domaine"
+  },
+  "اسم المتجر": {
+    "en": "Store name",
+    "fr": "Nom du magasin"
+  },
+  "اسم المشتري قصير جداً أو حرف واحد": {
+    "en": "The buyer's name is too short or one letter",
+    "fr": "Le nom de l'acheteur est trop court ou ne contient qu'une seule lettre"
+  },
+  "اسم المشتري يحتوي أرقام فقط": {
+    "en": "Buyer's name contains numbers only",
+    "fr": "Le nom de l'acheteur ne contient que des chiffres"
+  },
+  "اسم المنتج الرائع": {
+    "en": "Great product name",
+    "fr": "Excellent nom de produit"
+  },
+  "اشتراك منتهي يحتاج تجديد": {
+    "en": "Subscription has expired and needs to be renewed",
+    "fr": "L'abonnement a expiré et doit être renouvelé"
+  },
+  "اشتراك ينتهي خلال الأسبوع القادم": {
+    "en": "Subscription expires next week",
+    "fr": "L'abonnement expire la semaine prochaine"
+  },
+  "اشتراكات على وشك الانتهاء": {
+    "en": "Subscriptions are about to expire",
+    "fr": "Les abonnements sont sur le point d'expirer"
+  },
+  "اشتراكات منتهية": {
+    "en": "Expired subscriptions",
+    "fr": "Abonnements expirés"
+  },
+  "اشتراكك ينتهي اليوم!": {
+    "en": "Your subscription ends today!",
+    "fr": "Votre abonnement se termine aujourd'hui !"
+  },
+  "اشتراكك ينتهي قريباً": {
+    "en": "Your subscription ends soon",
+    "fr": "Votre abonnement se termine bientôt"
+  },
+  "اشتراكك ينتهي قريباً!": {
+    "en": "Your subscription ends soon!",
+    "fr": "Votre abonnement se termine bientôt !"
+  },
+  "اضغط لحفظ الاسم الكامل ورقم الواتساب": {
+    "en": "Click to save the full name and WhatsApp number",
+    "fr": "Cliquez pour enregistrer le nom complet et le numéro WhatsApp"
+  },
+  "اعدادات الحساب": {
+    "en": "Account settings",
+    "fr": "Paramètres du compte"
+  },
+  "اكتشف أفضل المنتجات بأسعار لا تُقاوم مع توصيل مجاني ودفع عند الاستلام": {
+    "en": "Discover the best products at irresistible prices with free delivery and cash on delivery",
+    "fr": "Découvrez les meilleurs produits à des prix irrésistibles avec livraison gratuite et paiement à la livraison"
+  },
+  "اكتشف تشكيلة راقية من أجود العطور بأفضل الأسعار": {
+    "en": "Discover an elegant selection of the finest perfumes at the best prices",
+    "fr": "Découvrez une sélection élégante des plus beaux parfums aux meilleurs prix"
+  },
+  "الأتمتة والربط": {
+    "en": "Automation and connectivity",
+    "fr": "Automatisation et connectivité"
+  },
+  "الأحدث": {
+    "en": "Latest",
+    "fr": "Dernier"
+  },
+  "الأرباح": {
+    "en": "Profits",
+    "fr": "Bénéfices"
+  },
+  "الأرجوان الفاخر": {
+    "en": "Luxurious purple",
+    "fr": "Violet luxueux"
+  },
+  "الأكثر أناقة": {
+    "en": "The most elegant",
+    "fr": "Le plus élégant"
+  },
+  "الأيام المتبقية": {
+    "en": "remaining days",
+    "fr": "jours restants"
+  },
+  "الإجراء ضد الطلبات المشبوهة (اكتب: flag للتحديد فقط، block للرفض القاطع)": {
+    "en": "Action against suspicious requests (type: flag for identification only, block for flat rejection)",
+    "fr": "Action contre les demandes suspectes (type : flag pour identification uniquement, blocage pour rejet catégorique)"
+  },
+  "الإعدادات": {
+    "en": "Settings",
+    "fr": "Paramètres"
+  },
+  "الإنجليزية (English) 🇬🇧": {
+    "en": "English 🇬🇧",
+    "fr": "Anglais 🇬🇧"
+  },
+  "الإيراد": {
+    "en": "Revenue",
+    "fr": "Revenus"
+  },
+  "الإيراد الشهري (MRR)": {
+    "en": "Monthly revenue (MRR)",
+    "fr": "Revenu mensuel (MRR)"
+  },
+  "الإيراد:": {
+    "en": "Revenue:",
+    "fr": "Revenus :"
+  },
+  "الإيرادات السنوية المتوقعة": {
+    "en": "Expected annual revenues",
+    "fr": "Revenus annuels attendus"
+  },
+  "الإيرادات الشهرية المتكررة": {
+    "en": "Monthly recurring revenue",
+    "fr": "Revenu mensuel récurrent"
+  },
+  "الاشتراكات": {
+    "en": "Subscriptions",
+    "fr": "Abonnements"
+  },
+  "الامتداد": {
+    "en": "Extension",
+    "fr": "Rallonge"
+  },
+  "الباقة المجانية (Free)": {
+    "en": "Free package",
+    "fr": "Forfait gratuit"
+  },
+  "الباقة برو (Pro)": {
+    "en": "Pro package",
+    "fr": "Forfait Pro"
+  },
+  "البريد": {
+    "en": "mail",
+    "fr": "courrier"
+  },
+  "البريد الإلكتروني المستخدم لتسجيل الدخول": {
+    "en": "Email used to log in",
+    "fr": "Email utilisé pour se connecter"
+  },
+  "التاجر": {
+    "en": "Merchant",
+    "fr": "Marchand"
+  },
+  "التاجر (المتجر)": {
+    "en": "merchant (store)",
+    "fr": "marchand (magasin)"
+  },
+  "التاجر المحترف": {
+    "en": "Professional trader",
+    "fr": "Commerçant professionnel"
+  },
+  "التجار": {
+    "en": "Merchants",
+    "fr": "Marchands"
+  },
+  "التجار المشتركون": {
+    "en": "Joint merchants",
+    "fr": "Marchands communs"
+  },
+  "التحليلات والتقارير": {
+    "en": "Analytics and reports",
+    "fr": "Analyses et rapports"
+  },
+  "الترويج الذكي والمبيعات": {
+    "en": "Smart promotion and sales",
+    "fr": "Promotion et ventes intelligentes"
+  },
+  "التسجيل": {
+    "en": "Registration",
+    "fr": "Inscription"
+  },
+  "التصميم الفخم": {
+    "en": "Luxurious design",
+    "fr": "Conception luxueuse"
+  },
+  "التطبيقات": {
+    "en": "Applications",
+    "fr": "Applications"
+  },
+  "التفاصيل": {
+    "en": "Details",
+    "fr": "Détails"
+  },
+  "التوصيل بالمجان 🚚 والدفع عند الاستلام 💰": {
+    "en": "Free delivery 🚚 and payment upon delivery 💰",
+    "fr": "Livraison gratuite 🚚 et paiement à la livraison 💰"
+  },
+  "التوصيل في 48 ساعة": {
+    "en": "Delivery within 48 hours",
+    "fr": "Livraison sous 48 heures"
+  },
+  "الحالة": {
+    "en": "Status",
+    "fr": "Statut"
+  },
+  "الحد الأقصى للطلبات المسموحة من نفس IP (يومياً)": {
+    "en": "Maximum allowed requests from the same IP (daily)",
+    "fr": "Nombre maximal de requêtes autorisées à partir de la même adresse IP (quotidiennement)"
+  },
+  "الحد الأقصى للمنتجات": {
+    "en": "Maximum products",
+    "fr": "Produits maximum"
+  },
+  "الخط العربي للمتجر": {
+    "en": "Arabic calligraphy for the store",
+    "fr": "Calligraphie arabe pour le magasin"
+  },
+  "الخطة الحالية": {
+    "en": "Current plan",
+    "fr": "Forfait actuel"
+  },
+  "الخطة المجانية": {
+    "en": "Free plan",
+    "fr": "Forfait gratuit"
+  },
+  "الدفع عند الاستلام": {
+    "en": "Payment upon receipt",
+    "fr": "Paiement à réception"
+  },
+  "الدفع عند الاستلام - آمن 100%": {
+    "en": "Cash on delivery - 100% secure",
+    "fr": "Paiement à la livraison - 100% sécurisé"
+  },
+  "الدومين المطلوب": {
+    "en": "The required domain",
+    "fr": "Le domaine requis"
+  },
+  "الدومينات": {
+    "en": "Domains",
+    "fr": "Domaines"
+  },
+  "الذكاء الاصطناعي": {
+    "en": "Artificial intelligence",
+    "fr": "Intelligence artificielle"
+  },
+  "الذهاب للوحة التحكم": {
+    "en": "Go to control panel",
+    "fr": "Aller au panneau de configuration"
+  },
+  "الرئيسية": {
+    "en": "Home",
+    "fr": "Accueil"
+  },
+  "الرجاء إدخال رقم هاتف جزائري صحيح (يبدأ بـ 05، 06، أو 07 ويتكون من 10 أرقام)": {
+    "en": "Please enter a valid Algerian phone number (starts with 05, 06, or 07 and consists of 10 digits)",
+    "fr": "Veuillez saisir un numéro de téléphone algérien valide (commence par 05, 06 ou 07 et se compose de 10 chiffres)"
+  },
+  "الرجاء إدخال رمز API الخاص بشركة الشحن أولاً في الإعدادات.": {
+    "en": "Please enter your shipping company's API code first in settings.",
+    "fr": "Veuillez d'abord saisir le code API de votre compagnie maritime dans les paramètres."
+  },
+  "الرقم يجب ألا يتجاوز 10 أرقام": {
+    "en": "The number must not exceed 10 numbers",
+    "fr": "Le nombre ne doit pas dépasser 10 chiffres"
+  },
+  "الرقم يجب أن يبدأ بـ 05 أو 06 أو 07": {
+    "en": "The number must start with 05, 06 or 07",
+    "fr": "Le numéro doit commencer par 05, 06 ou 07"
+  },
+  "الرقم يجب أن يتكون من 10 أرقام": {
+    "en": "The number must consist of 10 digits",
+    "fr": "Le numéro doit être composé de 10 chiffres"
+  },
+  "الزجاجي الأنيق": {
+    "en": "Elegant glass",
+    "fr": "Verre élégant"
+  },
+  "الزمرد الأخضر": {
+    "en": "Emerald green",
+    "fr": "Vert émeraude"
+  },
+  "السعر السنوي": {
+    "en": "Annual price",
+    "fr": "Prix annuel"
+  },
+  "السعر:": {
+    "en": "Price:",
+    "fr": "Prix :"
+  },
+  "السلات المتروكة": {
+    "en": "Abandoned baskets",
+    "fr": "Paniers abandonnés"
+  },
+  "العداد التنازلي (Scarcity)": {
+    "en": "Countdown timer (Scarcity)",
+    "fr": "Compte à rebours (rareté)"
+  },
+  "العربية (Arabic) 🇩🇿": {
+    "en": "Arabic (Arabic) 🇩🇿",
+    "fr": "Arabe (arabe) 🇩🇿"
+  },
+  "العميل": {
+    "en": "Client",
+    "fr": "Client"
+  },
+  "العنوان": {
+    "en": "Title",
+    "fr": "Titre"
+  },
+  "العنوان الرئيسي للواجهة": {
+    "en": "The main address of the interface",
+    "fr": "L'adresse principale de l'interface"
+  },
+  "العنوان الفرعي للواجهة": {
+    "en": "Interface subtitle",
+    "fr": "Sous-titre de l'interface"
+  },
+  "الفرنسية (French) 🇫🇷": {
+    "en": "French (French) 🇫🇷",
+    "fr": "Français (Français) 🇫🇷"
+  },
+  "الفريق": {
+    "en": "The team",
+    "fr": "L'équipe"
+  },
+  "الفواتير": {
+    "en": "Invoices",
+    "fr": "Factures"
+  },
+  "الفواتير والاشتراكات": {
+    "en": "Billing and subscriptions",
+    "fr": "Facturation et abonnements"
+  },
+  "الفوترة": {
+    "en": "Billing",
+    "fr": "Facturation"
+  },
+  "الفوترة والاشتراكات": {
+    "en": "Billing and subscriptions",
+    "fr": "Facturation et abonnements"
+  },
+  "القيم والحصص المتاحة في خطتك": {
+    "en": "The values and quotas available in your plan",
+    "fr": "Les valeurs et quotas disponibles dans votre forfait"
+  },
+  "الكلاسيكي الفاخر": {
+    "en": "Luxurious classic",
+    "fr": "Classique luxueux"
+  },
+  "الكمية": {
+    "en": "Quantity",
+    "fr": "Quantité"
+  },
+  "اللون العام والأساسي للمتجر (Primary Color)": {
+    "en": "The general and primary color of the store (Primary Color)",
+    "fr": "La couleur générale et primaire du magasin (Primary Color)"
+  },
+  "الليل الحالك": {
+    "en": "Dark night",
+    "fr": "Nuit noire"
+  },
+  "المؤطر الحاد (Bold)": {
+    "en": "Bold frame",
+    "fr": "Cadre audacieux"
+  },
+  "المبلغ": {
+    "en": "Amount",
+    "fr": "Montant"
+  },
+  "المبلغ (د.ج)": {
+    "en": "Amount (DZD)",
+    "fr": "Montant (DZD)"
+  },
+  "المبلغ الإجمالي": {
+    "en": "Total amount",
+    "fr": "Montant total"
+  },
+  "المتاجر": {
+    "en": "Stores",
+    "fr": "Magasins"
+  },
+  "المتجر": {
+    "en": "Store",
+    "fr": "Magasin"
+  },
+  "المتجر غير موجود": {
+    "en": "Store not found",
+    "fr": "Magasin introuvable"
+  },
+  "المحيط الهادئ": {
+    "en": "Pacific Ocean",
+    "fr": "Océan Pacifique"
+  },
+  "المدة (بالدقائق)": {
+    "en": "Duration (minutes)",
+    "fr": "Durée (minutes)"
+  },
+  "المدير العام": {
+    "en": "General Manager",
+    "fr": "Directeur général"
+  },
+  "المسطح العصري (Flat)": {
+    "en": "Modern flat",
+    "fr": "Appartement moderne"
+  },
+  "المعرف": {
+    "en": "id",
+    "fr": "identifiant"
+  },
+  "المعلومات التي سجلت بها حسابك في المنصة": {
+    "en": "The information with which you registered your account on the platform",
+    "fr": "Les informations avec lesquelles vous avez enregistré votre compte sur la plateforme"
+  },
+  "المنتجات": {
+    "en": "Products",
+    "fr": "Produits"
+  },
+  "المنتجات والطلبات": {
+    "en": "Products and orders",
+    "fr": "Produits et commandes"
+  },
+  "الناتج...": {
+    "en": "The output...",
+    "fr": "La sortie..."
+  },
+  "النص": {
+    "en": "Text",
+    "fr": "Texte"
+  },
+  "النطاق المخصص (Custom Domain)": {
+    "en": "Custom Domain",
+    "fr": "Domaine personnalisé"
+  },
+  "النظام": {
+    "en": "System",
+    "fr": "Système"
+  },
+  "النظام يعمل": {
+    "en": "The system works",
+    "fr": "Le système fonctionne"
+  },
+  "النظام يعمل بشكل ممتاز": {
+    "en": "The system works perfectly",
+    "fr": "Le système fonctionne parfaitement"
+  },
+  "النمط البصري للمتجر (Store Theme)": {
+    "en": "Store Theme",
+    "fr": "Thème du magasin"
+  },
+  "النمط الجريء": {
+    "en": "Bold style",
+    "fr": "Style audacieux"
+  },
+  "النمط العصري": {
+    "en": "Modern style",
+    "fr": "Style moderne"
+  },
+  "الهاتف": {
+    "en": "Phone",
+    "fr": "Téléphone"
+  },
+  "انتهت الخطة ⚠️": {
+    "en": "The plan is over ⚠️",
+    "fr": "Le plan est terminé ⚠️"
+  },
+  "انتهت صلاحية اشتراكك": {
+    "en": "Your subscription has expired",
+    "fr": "Votre abonnement a expiré"
+  },
+  "انتهت صلاحية اشتراكك!": {
+    "en": "Your subscription has expired!",
+    "fr": "Votre abonnement est expiré !"
+  },
+  "انتهت صلاحية تسجيل الدخول (Invalid Token). يُرجى تسجيل الخروج ثم الدخول مرة أخرى للحفاظ على أمان حسابك.": {
+    "en": "The login (Invalid Token) has expired. Please sign out and back in to keep your account secure.",
+    "fr": "La connexion (Invalid Token) a expiré. Veuillez vous déconnecter et vous reconnecter pour sécuriser votre compte."
+  },
+  "انتهى الاشتراك في": {
+    "en": "Subscription has ended",
+    "fr": "L'abonnement est terminé"
+  },
+  "انسخ رابط متجرك وشاركه على وسائل التواصل": {
+    "en": "Copy your store link and share it on social media",
+    "fr": "Copiez le lien de votre boutique et partagez-le sur les réseaux sociaux"
+  },
+  "انقر لاختيار أو سحب صورة الثقة والضمان": {
+    "en": "Click to select or drag the Trust and Guarantee image",
+    "fr": "Cliquez pour sélectionner ou faire glisser l'image Confiance et garantie"
+  },
+  "انقر لاختيار صورة الواجهة": {
+    "en": "Click to choose the interface image",
+    "fr": "Cliquez pour choisir l'image de l'interface"
+  },
+  "باقات التوفير": {
+    "en": "Savings packages",
+    "fr": "Forfaits d'épargne"
+  },
+  "باقة التاجر المحترف (VIP)": {
+    "en": "Professional Trader Package (VIP)",
+    "fr": "Forfait commerçant professionnel (VIP)"
+  },
+  "بحث": {
+    "en": "Search",
+    "fr": "Rechercher"
+  },
+  "بداية الاشتراك": {
+    "en": "Beginning of subscription",
+    "fr": "Début de l'abonnement"
+  },
+  "بدون اسم": {
+    "en": "Without a name",
+    "fr": "Sans nom"
+  },
+  "بدون تصنيف": {
+    "en": "No classification",
+    "fr": "Pas de classement"
+  },
+  "بدون حدود أو ظلال، تصميم مسطح حديث وبسيط": {
+    "en": "No borders or shadows, modern and simple flat design",
+    "fr": "Pas de frontières ni d'ombres, design plat moderne et simple"
+  },
+  "بريق الذهب": {
+    "en": "Gold glitter",
+    "fr": "Paillettes d'or"
+  },
+  "بسيط واحترافي": {
+    "en": "Simple and professional",
+    "fr": "Simple et professionnel"
+  },
+  "بصيغة دولية بدون + (مثال: 213555123456)": {
+    "en": "In international format without + (example: 213555123456)",
+    "fr": "Au format international sans + (exemple : 213555123456)"
+  },
+  "بعد تأكيد الطلب، سيتواصل معك فريق الدعم لإتمام عملية الدفع وتفعيل الدومين على متجرك.": {
+    "en": "After confirming the order, the support team will contact you to complete the payment process and activate the domain on your store.",
+    "fr": "Après avoir confirmé la commande, l'équipe d'assistance vous contactera pour terminer le processus de paiement et activer le domaine sur votre boutique."
+  },
+  "بقي القليل! ينتهي العرض خلال:": {
+    "en": "Few left! Offer ends in:",
+    "fr": "Il en reste peu ! L'offre se termine dans :"
+  },
+  "بكسل متاح": {
+    "en": "Pixel available",
+    "fr": "Pixels disponibles"
+  },
+  "بكسلات التتبع": {
+    "en": "Tracking pixels",
+    "fr": "Pixels de suivi"
+  },
+  "بكسلات تيكتوك": {
+    "en": "Tiktok pixels",
+    "fr": "Pixels Tiktok"
+  },
+  "بكسلات فيسبوك": {
+    "en": "Facebook pixels",
+    "fr": "Pixels Facebook"
+  },
+  "بيانات غير مكتملة": {
+    "en": "Incomplete data",
+    "fr": "Données incomplètes"
+  },
+  "بيضاوي ممتد (Pill)": {
+    "en": "Extended oval (Pill)",
+    "fr": "Ovale allongé (pilule)"
+  },
+  "تأثير النبض البصري (Pulse Effect)": {
+    "en": "Optical Pulse Effect",
+    "fr": "Effet d'impulsion optique"
+  },
+  "تأثير بلوري ناعم وخلفية شبه شفافة رائعة": {
+    "en": "Soft frosted effect and gorgeous semi-transparent background",
+    "fr": "Effet givré doux et magnifique fond semi-transparent"
+  },
+  "تأكد من مراجعة حالة الحسابات المحظورة بشكل دوري.": {
+    "en": "Make sure to check the status of blocked accounts periodically.",
+    "fr": "Make sure to check the status of blocked accounts periodically."
+  },
+  "تأكيد الرمز": {
+    "en": "Confirm the code",
+    "fr": "Confirmez le code"
+  },
+  "تأكيد الطلب": {
+    "en": "Confirm the order",
+    "fr": "Confirmer la commande"
+  },
+  "تأكيد طلب جديد بقيمة 12,500 د.ج لعميل في تلمسان! 🛍️": {
+    "en": "Confirmation of a new order worth 12,500 DZD for a customer in Tlemcen! 🛍️",
+    "fr": "Confirmation d'une nouvelle commande d'une valeur de 12.500 DZD pour un client à Tlemcen ! 🛍️"
+  },
+  "تأكيد طلب شراء الدومين": {
+    "en": "Confirm your domain purchase request",
+    "fr": "Confirmez votre demande d'achat de domaine"
+  },
+  "تأكيد وتحديث": {
+    "en": "Confirm and update",
+    "fr": "Confirmer et mettre à jour"
+  },
+  "تابع جميع الإشعارات والتنبيهات الخاصة بمتجرك": {
+    "en": "Follow all notifications and alerts for your store",
+    "fr": "Suivez toutes les notifications et alertes de votre boutique"
+  },
+  "تاجر": {
+    "en": "Merchant",
+    "fr": "Marchand"
+  },
+  "تاريخ الانتهاء": {
+    "en": "End date",
+    "fr": "Date de fin"
+  },
+  "تاريخ التسجيل": {
+    "en": "Registration date",
+    "fr": "Date d'inscription"
+  },
+  "تاريخ انتهاء الاشتراك": {
+    "en": "Subscription expiration date",
+    "fr": "Date d'expiration de l'abonnement"
+  },
+  "تباين عالي، حدود حادة وأزرار عريضة وقوية": {
+    "en": "High contrast, sharp borders and wide, strong buttons",
+    "fr": "Contraste élevé, bordures nettes et boutons larges et puissants"
+  },
+  "تتبع الـ IP 🚫": {
+    "en": "IP tracking 🚫",
+    "fr": "Suivi IP 🚫"
+  },
+  "تتبع تلقائي 📱": {
+    "en": "Auto tracking 📱",
+    "fr": "Suivi automatique 📱"
+  },
+  "تتبع محاولات الاتصال ☎️": {
+    "en": "Track connection attempts ☎️",
+    "fr": "Suivre les tentatives de connexion ☎️"
+  },
+  "تثبيت بيكسلات التتبع والربط...": {
+    "en": "Install tracking pixels and link...",
+    "fr": "Installez les pixels de suivi et le lien..."
+  },
+  "تجاوز حظر الكوكيز وإرسال الحدث من السيرفر مباشرة لفيسبوك.": {
+    "en": "Bypass cookie blocking and send the event from the server directly to Facebook.",
+    "fr": "Contournez le blocage des cookies et envoyez l'événement du serveur directement à Facebook."
+  },
+  "تجديد الاشتراك": {
+    "en": "Subscription renewal",
+    "fr": "Renouvellement d'abonnement"
+  },
+  "تجميل": {
+    "en": "Beautification",
+    "fr": "Embellissement"
+  },
+  "تحديث": {
+    "en": "Update",
+    "fr": "Mise à jour"
+  },
+  "تحديث تلقائي لحالة الشحنات": {
+    "en": "Automatic update of shipment status",
+    "fr": "Mise à jour automatique du statut de l'expédition"
+  },
+  "تحديث كلمة المرور": {
+    "en": "Update password",
+    "fr": "Mettre à jour le mot de passe"
+  },
+  "تحفيز الشراء بعرض عداد وقت": {
+    "en": "Motivate purchase by offering a timer",
+    "fr": "Motiver l'achat en offrant un minuteur"
+  },
+  "تحقق من بريدك": {
+    "en": "Check your mail",
+    "fr": "Vérifiez votre courrier"
+  },
+  "تحكم بخلفية الاستمارة وحقول الإدخال": {
+    "en": "Control the form background and input fields",
+    "fr": "Contrôler l'arrière-plan du formulaire et les champs de saisie"
+  },
+  "تحكم في عرض زر الواتساب العائم وعداد التقييمات": {
+    "en": "Control the display of the WhatsApp floating button and ratings counter",
+    "fr": "Contrôler l'affichage du bouton flottant WhatsApp et du compteur de notes"
+  },
+  "تحليل سلوك الزوار ورصد مسارات وصولهم لدفع الأموال بدقة.": {
+    "en": "Analyze visitors' behavior and accurately monitor their payment paths.",
+    "fr": "Analysez le comportement des visiteurs et suivez avec précision leurs parcours de paiement."
+  },
+  "تحميل صورة الواجهة الرئيسية": {
+    "en": "Download the main interface image",
+    "fr": "Téléchargez l'image de l'interface principale"
+  },
+  "تخصيص العرض 🎨": {
+    "en": "Customize the display 🎨",
+    "fr": "Personnalisez l'affichage 🎨"
+  },
+  "تخصيص المتجر": {
+    "en": "تخصيص المتجر",
+    "fr": "Personnalisez le magasin"
+  },
+  "تخصيص نموذج الطلب": {
+    "en": "Customize the order form",
+    "fr": "Personnaliser le formulaire de commande"
+  },
+  "تخطيط شبكي نظيف وعصري مناسب للجميع": {
+    "en": "Clean, modern grid layout suitable for everyone",
+    "fr": "Disposition de grille épurée et moderne adaptée à tout le monde"
+  },
+  "تدرج فخم": {
+    "en": "Luxurious gradient",
+    "fr": "Dégradé luxueux"
+  },
+  "ترقية باقتك 🚀": {
+    "en": "Upgrade your package 🚀",
+    "fr": "Améliorez votre forfait 🚀"
+  },
+  "تسجيل الدخول": {
+    "en": "Login",
+    "fr": "Connexion"
+  },
+  "تسليم": {
+    "en": "Delivery",
+    "fr": "Livraison"
+  },
+  "تسوق الآن": {
+    "en": "Shop now",
+    "fr": "Achetez maintenant"
+  },
+  "تشغيل وتحميل أكواد التتبع والبيكسلات دون تعديل سطر برمجي واحد.": {
+    "en": "Run and load tracking codes and pixels without modifying a single line of code.",
+    "fr": "Exécutez et chargez des codes de suivi et des pixels sans modifier une seule ligne de code."
+  },
+  "تصدير بيانات الطلب فورا إلى أنظمتك الخارجية في أقل من 0.5 ثانية.": {
+    "en": "Instantly export order data to your external systems in less than 0.5 seconds.",
+    "fr": "Exportez instantanément les données de commande vers vos systèmes externes en moins de 0,5 seconde."
+  },
+  "تصفية الطلبات 🛡️": {
+    "en": "Filter orders 🛡️",
+    "fr": "Filtrer les commandes 🛡️"
+  },
+  "تصميم بسيط للغاية بلمسات زجاجية فاخرة": {
+    "en": "Very simple design with luxurious glass accents",
+    "fr": "Conception très simple avec des accents de verre luxueux"
+  },
+  "تصميم بسيط وأنيق يركز على المنتج واستمارة الطلب بشكل مباشر وفعّال.": {
+    "en": "Simple and elegant design that focuses on the product and order form in a straightforward and effective way.",
+    "fr": "Un design simple et élégant qui se concentre sur le produit et le bon de commande de manière simple et efficace."
+  },
+  "تصميم نظيف وعملي": {
+    "en": "Clean and practical design",
+    "fr": "Design épuré et pratique"
+  },
+  "تصميم نظيف وعملي يعرض المنتج والاستمارة جنباً لجنب": {
+    "en": "A clean, functional design that displays the product and form side by side",
+    "fr": "Un design épuré et fonctionnel qui affiche le produit et le formulaire côte à côte"
+  },
+  "تصميم وتخصيص المتجر": {
+    "en": "Store design and customization",
+    "fr": "Conception et personnalisation du magasin"
+  },
+  "تصميم وشكل كارت المنتج": {
+    "en": "Design and shape of the product card",
+    "fr": "Conception et forme de la fiche produit"
+  },
+  "تغيير الخطة": {
+    "en": "Change plan",
+    "fr": "Changer de forfait"
+  },
+  "تغيير خطة التاجر": {
+    "en": "Change merchant plan",
+    "fr": "Changer de forfait marchand"
+  },
+  "تفاصيل": {
+    "en": "Details",
+    "fr": "Détails"
+  },
+  "تفاصيل الدفع الأمان": {
+    "en": "Payment details security",
+    "fr": "Sécurité des détails de paiement"
+  },
+  "تفاصيل الطلب": {
+    "en": "Order details",
+    "fr": "Détails de la commande"
+  },
+  "تفريغ فوري وتلقائي لبيانات العميل الجديد في جدول Google Sheets الخاص بك.": {
+    "en": "Instant and automatic dump of new customer data into your Google Sheets table.",
+    "fr": "Vidage instantané et automatique des nouvelles données clients dans votre tableau Google Sheets."
+  },
+  "تفعيل التخصيص المتقدم": {
+    "en": "Activate advanced customization",
+    "fr": "Activer la personnalisation avancée"
+  },
+  "تفعيل الكابتشا الذكية (حجب البوتات بسؤال رياضي: true أو false)": {
+    "en": "Activate smart captcha (block bots with a mathematical question: true or false)",
+    "fr": "Activer le smart captcha (bloquer les robots avec une question mathématique : vrai ou faux)"
+  },
+  "تفعيل النظام": {
+    "en": "Activate the system",
+    "fr": "Activer le système"
+  },
+  "تفعيل حركة الشريط العلوي": {
+    "en": "Activate the top bar movement",
+    "fr": "Activer le mouvement de la barre supérieure"
+  },
+  "تفعيل زر واتساب العائم": {
+    "en": "Activate the WhatsApp floating button",
+    "fr": "Activez le bouton flottant WhatsApp"
+  },
+  "تقدم الاشتراك": {
+    "en": "Subscription progress",
+    "fr": "Progression de l'abonnement"
+  },
+  "تقديم خصم عند شراء كميات أكبر": {
+    "en": "Offer a discount when purchasing larger quantities",
+    "fr": "Offrez une remise lors de l’achat de plus grandes quantités"
+  },
+  "تقنية": {
+    "en": "Technology",
+    "fr": "Technologie"
+  },
+  "تقييم المخاطر 🔴": {
+    "en": "Risk assessment 🔴",
+    "fr": "Évaluation des risques 🔴"
+  },
+  "تكامل رسمي ومباشر": {
+    "en": "Formal and straightforward integration",
+    "fr": "Intégration formelle et simple"
+  },
+  "تكاملات جديدة": {
+    "en": "New integrations",
+    "fr": "Nouvelles intégrations"
+  },
+  "تكرار نفس الطلب (نفس المنتج ورقم الهاتف) خلال آخر 5 دقائق": {
+    "en": "Repeating the same request (same product and phone number) within the last 5 minutes",
+    "fr": "Répéter la même demande (même produit et numéro de téléphone) dans les 5 dernières minutes"
+  },
+  "تم إرسال الطلب لشركة الشحن، لكن فشل حفظ الرقم في قاعدة البيانات.": {
+    "en": "The request was sent to the shipping company, but the number failed to be saved in the database.",
+    "fr": "La demande a été envoyée à la compagnie maritime, mais le numéro n'a pas pu être enregistré dans la base de données."
+  },
+  "تم إرسال حدث الشراء (Purchase) للفيسبوك فورياً بنسبة دقة 100%.": {
+    "en": "The Purchase event was sent to Facebook instantly with 100% accuracy.",
+    "fr": "L'événement d'achat a été envoyé instantanément à Facebook avec une précision de 100 %."
+  },
+  "تم إرسال رمز إعادة تعيين كلمة المرور إلى بريدك الإلكتروني.": {
+    "en": "A password reset code has been sent to your email.",
+    "fr": "Un code de réinitialisation de mot de passe a été envoyé à votre adresse e-mail."
+  },
+  "تم إرسال رمز التحقق إلى بريدك الإلكتروني. يرجى إدخاله أدناه لإتمام العملية.": {
+    "en": "A verification code has been sent to your email. Please enter it below to complete the process.",
+    "fr": "Un code de vérification a été envoyé à votre adresse e-mail. Veuillez le saisir ci-dessous pour terminer le processus."
+  },
+  "تم إرسال طلبك بنجاح! 🎉": {
+    "en": "Your request has been sent successfully! 🎉",
+    "fr": "Votre demande a été envoyée avec succès ! 🎉"
+  },
+  "تم إطلاق متجرك بنجاح! 🚀": {
+    "en": "Your store has been launched successfully! 🚀",
+    "fr": "Votre boutique a été lancée avec succès ! 🚀"
+  },
+  "تم إلغاء حظر التاجر بنجاح": {
+    "en": "The merchant has been successfully unblocked",
+    "fr": "Le marchand a été débloqué avec succès"
+  },
+  "تم إيقاف الوصول للوحة التحكم": {
+    "en": "Access to the control panel has been disabled",
+    "fr": "L'accès au panneau de contrôle a été désactivé"
+  },
+  "تم التسليم": {
+    "en": "Delivered",
+    "fr": "Livré"
+  },
+  "تم تأكيد طلب جديد بقيمة 8,900 د.ج لعميل في وهران! ✨": {
+    "en": "A new order worth 8,900 DZD has been confirmed for a customer in Oran! ✨",
+    "fr": "Une nouvelle commande d'une valeur de 8.900 DZD a été confirmée pour un client à Oran ! ✨"
+  },
+  "تم تحديث الخطة بنجاح": {
+    "en": "The plan has been updated successfully",
+    "fr": "Le plan a été mis à jour avec succès"
+  },
+  "تم تحديث كلمة المرور بنجاح. يمكنك الآن تسجيل الدخول.": {
+    "en": "The password has been updated successfully. You can now log in.",
+    "fr": "Le mot de passe a été mis à jour avec succès. Vous pouvez maintenant vous connecter."
+  },
+  "تم تسجيل تجار جدد في المنصة اليوم.": {
+    "en": "New traders registered on the platform today.",
+    "fr": "Nouveaux traders inscrits sur la plateforme aujourd'hui."
+  },
+  "تم تعبئة حقل Honeypot (بوت روبوت)": {
+    "en": "Honeypot field populated",
+    "fr": "Champ Honeypot renseigné"
+  },
+  "تم تغيير كلمة المرور بنجاح!": {
+    "en": "Password changed successfully!",
+    "fr": "Mot de passe modifié avec succès !"
+  },
+  "تم تفعيل اشتراكك بنجاح!": {
+    "en": "Your subscription has been successfully activated!",
+    "fr": "Votre abonnement a été activé avec succès !"
+  },
+  "تم تفويض شركة التوصيل بنجاح وجلب رقم التتبع (Bordereau).": {
+    "en": "The delivery company was successfully authorized and brought the tracking number (Bordereau).",
+    "fr": "La société de livraison a été autorisée avec succès et a apporté le numéro de suivi (Bordereau)."
+  },
+  "تم حذف المتجر بنجاح": {
+    "en": "The store has been successfully deleted",
+    "fr": "Le magasin a été supprimé avec succès"
+  },
+  "تم حظر التاجر بنجاح": {
+    "en": "The trader has been successfully blocked",
+    "fr": "Le commerçant a été bloqué avec succès"
+  },
+  "تم حفظ المعلومات بنجاح!": {
+    "en": "Information saved successfully!",
+    "fr": "Informations enregistrées avec succès !"
+  },
+  "تم حفظ طلب شراء الدومين:": {
+    "en": "Your domain purchase request has been saved:",
+    "fr": "Votre demande d'achat de domaine a été enregistrée :"
+  },
+  "تمت دعوتك للانضمام!": {
+    "en": "You're invited to join!",
+    "fr": "Vous êtes invité à nous rejoindre !"
+  },
+  "تنبيه الحماية من الطلبات الوهمية": {
+    "en": "Protection alert against fake requests",
+    "fr": "Alerte de protection contre les fausses demandes"
+  },
+  "تنبيه: هذا الخيار للمستخدمين المتقدمين. كتابة كود غير صحيح قد يغير مظهر المتجر بشكل غير متوقع.": {
+    "en": "Warning: This option is for advanced users. Writing incorrect code may change the appearance of the store unexpectedly.",
+    "fr": "Attention : Cette option est destinée aux utilisateurs avancés. L'écriture d'un code incorrect peut modifier l'apparence du magasin de manière inattendue."
+  },
+  "تنبيهات": {
+    "en": "Alerts",
+    "fr": "Alertes"
+  },
+  "تواصل مع الدعم عبر الواتساب": {
+    "en": "Contact support via WhatsApp",
+    "fr": "Contacter l'assistance via WhatsApp"
+  },
+  "تواصل معنا": {
+    "en": "Contact us",
+    "fr": "Contactez-nous"
+  },
+  "تواصل معنا عبر واتساب": {
+    "en": "Contact us via WhatsApp",
+    "fr": "Contactez-nous via WhatsApp"
+  },
+  "تواصل معنا مباشرة 💬": {
+    "en": "Contact us directly 💬",
+    "fr": "Contactez-nous directement 💬"
+  },
+  "توزيع الإيرادات حسب الخطة": {
+    "en": "Distribution of revenues according to plan",
+    "fr": "Répartition des revenus selon le plan"
+  },
+  "توزيع الخطط": {
+    "en": "Distribution of plans",
+    "fr": "Répartition des forfaits"
+  },
+  "توصيات ذكية 🤖": {
+    "en": "Smart recommendations 🤖",
+    "fr": "Recommandations intelligentes 🤖"
+  },
+  "توصيل آمن وسريع لجميع الولايات": {
+    "en": "Safe and fast delivery to all states",
+    "fr": "Livraison sûre et rapide dans tous les états"
+  },
+  "توصيل سريع ومجاني": {
+    "en": "Fast and free delivery",
+    "fr": "Livraison rapide et gratuite"
+  },
+  "توصيل لباب منزلك خلال أيام معدودة.": {
+    "en": "Delivery to your door within a few days.",
+    "fr": "Livraison à votre porte sous quelques jours."
+  },
+  "توليد وطباعة بوليصة الشحن (Bordereau)": {
+    "en": "Generate and print bill of lading (Bordereau)",
+    "fr": "Générer et imprimer un connaissement (Bordereau)"
+  },
+  "توهج الغروب": {
+    "en": "Sunset glow",
+    "fr": "Lueur du coucher du soleil"
+  },
+  "ثانية": {
+    "en": "Again",
+    "fr": "Encore une fois"
+  },
+  "جاري البحث عن الدومينات المتاحة...": {
+    "en": "Searching for available domains...",
+    "fr": "Recherche de domaines disponibles..."
+  },
+  "جاري التحديث...": {
+    "en": "Updating...",
+    "fr": "Mise à jour..."
+  },
+  "جاري تحميل الإشعارات...": {
+    "en": "Loading notifications...",
+    "fr": "Chargement des notifications..."
+  },
+  "جاري تحميل بيانات التجار...": {
+    "en": "Loading merchant data...",
+    "fr": "Chargement des données du commerçant..."
+  },
+  "جاري تحميل بيانات الفواتير...": {
+    "en": "Loading billing data...",
+    "fr": "Chargement des données de facturation..."
+  },
+  "جاري تحميل بيانات المراقبة...": {
+    "en": "Loading monitoring data...",
+    "fr": "Chargement des données de surveillance..."
+  },
+  "جاري توليد صور المنتجات بالـ AI...": {
+    "en": "Generating product images with AI...",
+    "fr": "Générer des images de produits avec l'IA..."
+  },
+  "جاري كتابة نصوص المبيعات المقنعة...": {
+    "en": "Writing compelling sales texts...",
+    "fr": "Rédiger des textes de vente convaincants..."
+  },
+  "جرب تغيير البحث أو الفلتر": {
+    "en": "Try changing your search or filter",
+    "fr": "Essayez de modifier votre recherche ou votre filtre"
+  },
+  "جميع التجار": {
+    "en": "All traders",
+    "fr": "Tous les commerçants"
+  },
+  "جميع الحقوق محفوظة.": {
+    "en": "All rights reserved.",
+    "fr": "Tous droits réservés."
+  },
+  "جميع المنتجات متوفرة بالمخزون": {
+    "en": "All products are in stock",
+    "fr": "Tous les produits sont en stock"
+  },
+  "جميع منتجاتنا أصلية وتخضع لفحص الجودة.": {
+    "en": "All our products are original and undergo quality inspection.",
+    "fr": "Tous nos produits sont originaux et subissent un contrôle de qualité."
+  },
+  "جودة مضمونة": {
+    "en": "Guaranteed quality",
+    "fr": "Qualité garantie"
+  },
+  "حالة الاشتراك": {
+    "en": "Subscription status",
+    "fr": "Statut de l'abonnement"
+  },
+  "حبات بسعر": {
+    "en": "Beads at a price",
+    "fr": "Des perles à un prix"
+  },
+  "حبة واحدة": {
+    "en": "One pill",
+    "fr": "Une pilule"
+  },
+  "حدث خطأ أثناء إنشاء الفاتورة:": {
+    "en": "An error occurred while creating the invoice:",
+    "fr": "Une erreur s'est produite lors de la création de la facture :"
+  },
+  "حدث خطأ أثناء الاتصال:": {
+    "en": "An error occurred during connection:",
+    "fr": "Une erreur s'est produite lors de la connexion :"
+  },
+  "حدث خطأ أثناء طلب تغيير كلمة المرور": {
+    "en": "An error occurred while requesting a password change",
+    "fr": "Une erreur s'est produite lors de la demande de changement de mot de passe"
+  },
+  "حدث خطأ أثناء معالجة الطلب": {
+    "en": "An error occurred while processing the request",
+    "fr": "Une erreur s'est produite lors du traitement de la demande"
+  },
+  "حدث خطأ داخلي في نظام المنصة أثناء الاتصال بشركة الشحن.": {
+    "en": "An internal error occurred in the platform system while communicating with the shipping company.",
+    "fr": "Une erreur interne s'est produite dans le système de plateforme lors de la communication avec la compagnie maritime."
+  },
+  "حدث خطأ في الخادم": {
+    "en": "A server error has occurred",
+    "fr": "Une erreur de serveur s'est produite"
+  },
+  "حدث خطأ. الرجاء المحاولة مرة أخرى.": {
+    "en": "An error occurred. Please try again.",
+    "fr": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "حدد أسعار التوصيل أو اربط شركة الشحن": {
+    "en": "Specify delivery rates or link a shipping company",
+    "fr": "Spécifiez les tarifs de livraison ou associez une compagnie maritime"
+  },
+  "حدود خطتك الحالية": {
+    "en": "Limits of your current plan",
+    "fr": "Limites de votre forfait actuel"
+  },
+  "حدود سوداء/داكنة قوية بارزة وجريئة": {
+    "en": "Strong, bold black/dark borders",
+    "fr": "Bordures noires/foncées fortes et audacieuses"
+  },
+  "حذاء نايكي رياضي فخم": {
+    "en": "حذاء نايكي رياضي فخم",
+    "fr": "Chaussures de sport Nike luxueuses"
+  },
+  "حركة موجية ناعمة لجذب انتباه الزائر للضغط": {
+    "en": "Soft wave movement to attract visitor's attention to click",
+    "fr": "Mouvement de vague doux pour attirer l'attention du visiteur sur le clic"
+  },
+  "حظر": {
+    "en": "Ban",
+    "fr": "Interdiction"
+  },
+  "حظر التاجر": {
+    "en": "Trader ban",
+    "fr": "Interdiction des commerçants"
+  },
+  "حظر الطلبات من خارج الجزائر (اكتب: true للتفعيل، false للإلغاء)": {
+    "en": "Blocking requests from outside Algeria (type: true to activate, false to cancel)",
+    "fr": "Blocage des demandes depuis l'extérieur de l'Algérie (type : true pour activer, false pour annuler)"
+  },
+  "حظر العميل نهائياً للحد من ازعاجه": {
+    "en": "Permanently ban the customer to reduce his inconvenience",
+    "fr": "Bannir définitivement le client pour réduire ses désagréments"
+  },
+  "حفظ المعلومات": {
+    "en": "Save information",
+    "fr": "Enregistrer les informations"
+  },
+  "حفظ النطاق": {
+    "en": "Save scope",
+    "fr": "Enregistrer la portée"
+  },
+  "حفظ تصميم المتجر": {
+    "en": "Save store design",
+    "fr": "Enregistrer la conception du magasin"
+  },
+  "حماية متجرك من الطلبات الوهمية": {
+    "en": "Protect your store from fake orders",
+    "fr": "Protégez votre boutique des fausses commandes"
+  },
+  "حماية متجرك من الطلبات الوهمية عبر تحليل الـ IP، تقييم المخاطر الذكي، ورصد البوتات، لحماية الدفع عند الاستلام.": {
+    "en": "Protect your store from fake orders through IP analysis, intelligent risk assessment, and bot monitoring, to protect payment upon receipt.",
+    "fr": "Protégez votre boutique contre les fausses commandes grâce à l'analyse IP, à l'évaluation intelligente des risques et à la surveillance des robots, pour protéger le paiement dès réception."
+  },
+  "حواف مستديرة (Rounded)": {
+    "en": "Rounded edges",
+    "fr": "Bords arrondis"
+  },
+  "خصص ألوان ومظهر استمارة الطلب لتتوافق مع هوية متجرك": {
+    "en": "Customize the colors and appearance of your order form to match your store's identity",
+    "fr": "Personnalisez les couleurs et l'apparence de votre bon de commande en fonction de l'identité de votre magasin"
+  },
+  "خصم 50%": {
+    "en": "50% discount",
+    "fr": "50% de réduction"
+  },
+  "خصّص واجهة متجرك": {
+    "en": "Customize your storefront",
+    "fr": "Personnalisez votre vitrine"
+  },
+  "خط أجنبي - Montserrat (للغة الأجنبية)": {
+    "en": "Foreign font - Montserrat (for foreign language)",
+    "fr": "Police étrangère - Montserrat (pour langue étrangère)"
+  },
+  "خط الحوار - Cairo (الافتراضي)": {
+    "en": "Dialog line - Cairo (default)",
+    "fr": "Ligne de dialogue - Le Caire (par défaut)"
+  },
+  "خط المراعي - Almarai (رسمي وقوي)": {
+    "en": "Almarai line (formal and strong)",
+    "fr": "Ligne Almarai (formelle et forte)"
+  },
+  "خط المسيري - El Messiri (فني وجذاب)": {
+    "en": "El Messiri line (artistic and attractive)",
+    "fr": "Ligne El Messiri (artistique et attractive)"
+  },
+  "خط تجول - Tajawal (ناعم وعصري)": {
+    "en": "Tajawal line (soft and trendy)",
+    "fr": "Ligne Tajawal (douce et tendance)"
+  },
+  "خطة الأعمال المتقدمة": {
+    "en": "Advanced business plan",
+    "fr": "Plan d'affaires avancé"
+  },
+  "خطة التاجر المحترف": {
+    "en": "Professional trader plan",
+    "fr": "Forfait commerçant professionnel"
+  },
+  "خطة مجانية محدودة": {
+    "en": "Limited free plan",
+    "fr": "Forfait gratuit limité"
+  },
+  "خطتك شارفت على الانتهاء 🔔": {
+    "en": "Your plan is almost finished 🔔",
+    "fr": "Votre plan est presque terminé 🔔"
+  },
+  "خلفية بيضاء مع حدود ناعمة وتأثير ظل خفيف": {
+    "en": "White background with soft borders and light shadow effect",
+    "fr": "Fond blanc avec bordures douces et effet d'ombre clair"
+  },
+  "خلفية وإطار مربع السعر وشارة التخفيض": {
+    "en": "Background, frame, price box and sale badge",
+    "fr": "Fond, cadre, boîte de prix et badge de vente"
+  },
+  "د.ج/سنة": {
+    "en": "JD/year",
+    "fr": "JJ/an"
+  },
+  "د.ج/شهر": {
+    "en": "JD/month",
+    "fr": "JD/mois"
+  },
+  "دعم متخصص": {
+    "en": "Specialized support",
+    "fr": "Accompagnement spécialisé"
+  },
+  "دعم متخصص للمتاجر": {
+    "en": "Specialized support for stores",
+    "fr": "Accompagnement spécialisé pour les magasins"
+  },
+  "دق": {
+    "en": "Knock",
+    "fr": "Frapper"
+  },
+  "دقيقة": {
+    "en": "Minute",
+    "fr": "Minutes"
+  },
+  "رائحة ملكية": {
+    "en": "Royal scent",
+    "fr": "Parfum royal"
+  },
+  "ربط النطاق المخصص (Custom Domain)": {
+    "en": "Connect a custom domain",
+    "fr": "Connecter un domaine personnalisé"
+  },
+  "ربط سفيان من باتنة متجره بجداول Google Sheets تلقائياً! 📊": {
+    "en": "Sufyan from Batna automatically linked his store to Google Sheets! 📊",
+    "fr": "Sufyan de Batna a automatiquement lié sa boutique à Google Sheets ! 📊"
+  },
+  "ربط وإدارة": {
+    "en": "Connect and manage",
+    "fr": "Connectez-vous et gérez"
+  },
+  "ربطت سلمى من سطيف متجرها بـ TikTok Conversions API بنجاح! ⚡": {
+    "en": "Salma from Setif successfully connected her store to the TikTok Conversions API! ⚡",
+    "fr": "Salma de Sétif a réussi à connecter sa boutique à l'API TikTok Conversions ! ⚡"
+  },
+  "رصد فوري لإضافة المنتجات للسلة من زوار حملة التيك توك.": {
+    "en": "Instant monitoring of products added to the cart by Tik Tok campaign visitors.",
+    "fr": "Surveillance instantanée des produits ajoutés au panier par les visiteurs de la campagne Tik Tok."
+  },
+  "رقم أو unlimited": {
+    "en": "Number or unlimited",
+    "fr": "Nombre ou illimité"
+  },
+  "رقم الطلب": {
+    "en": "Order number",
+    "fr": "Numéro de commande"
+  },
+  "رقم الفاتورة": {
+    "en": "Invoice number",
+    "fr": "Numéro de facture"
+  },
+  "رقم الهاتف غير صحيح. يجب أن يكون رقم جزائري من 10 أرقام يبدأ بـ 05، 06، أو 07": {
+    "en": "Invalid phone number. It must be a 10-digit Algerian number starting with 05, 06, or 07",
+    "fr": "Numéro de téléphone invalide. Il doit s'agir d'un numéro algérien à 10 chiffres commençant par 05, 06 ou 07."
+  },
+  "رقم الواتساب للتواصل مع العملاء": {
+    "en": "WhatsApp number to communicate with customers",
+    "fr": "Numéro WhatsApp pour communiquer avec les clients"
+  },
+  "رقم الواتساب للدعم": {
+    "en": "WhatsApp support number",
+    "fr": "Numéro d'assistance WhatsApp"
+  },
+  "رقم هاتف المشتري غير صحيح أو لا يطابق الصيغة الجزائرية": {
+    "en": "The buyer's phone number is incorrect or does not match the Algerian formula",
+    "fr": "Le numéro de téléphone de l'acheteur est incorrect ou ne correspond pas à la formule algérienne"
+  },
+  "رقم هاتف جزائري غير صالح (يجب أن يكون 10 أرقام ويبدأ بـ 05 أو 06 أو 07)": {
+    "en": "Invalid Algerian phone number (must be 10 digits and start with 05, 06 or 07)",
+    "fr": "Numéro de téléphone algérien invalide (doit être composé de 10 chiffres et commencer par 05, 06 ou 07)"
+  },
+  "رمز التحقق": {
+    "en": "Verification code",
+    "fr": "Code de vérification"
+  },
+  "رمز التحقق غير صحيح أو منتهي الصلاحية": {
+    "en": "The verification code is invalid or expired",
+    "fr": "Le code de vérification est invalide ou a expiré"
+  },
+  "زائر": {
+    "en": "Visitor",
+    "fr": "Visiteur"
+  },
+  "زر الواتساب العائم": {
+    "en": "Floating WhatsApp button",
+    "fr": "Bouton WhatsApp flottant"
+  },
+  "زوايا حادة (Square)": {
+    "en": "Sharp corners (Square)",
+    "fr": "Coins vifs (carrés)"
+  },
+  "زيادة قيمة الطلب 💰": {
+    "en": "Increase the order value 💰",
+    "fr": "Augmentez la valeur de la commande 💰"
+  },
+  "زيارة المتجر": {
+    "en": "Visit the store",
+    "fr": "Visitez le magasin"
+  },
+  "سا": {
+    "en": "Sa",
+    "fr": "Sa"
+  },
+  "ساعة": {
+    "en": "An hour",
+    "fr": "Une heure"
+  },
+  "ساعة S-Alpha الذكية": {
+    "en": "S-Alpha smart watch",
+    "fr": "Montre intelligente S-Alpha"
+  },
+  "ستظهر لك لوحة تحكم المتجر مباشرة بعد تسجيل الدخول": {
+    "en": "The store control panel will appear immediately after logging in",
+    "fr": "Le panneau de contrôle du magasin apparaîtra immédiatement après la connexion"
+  },
+  "ستظهر هنا إشعارات الطلبات الجديدة والتنبيهات المهمة": {
+    "en": "Notifications of new orders and important alerts will appear here",
+    "fr": "Les notifications de nouvelles commandes et les alertes importantes apparaîtront ici"
+  },
+  "ستظهر هنا السلات المستعجلة والنماذج التي تم تركها لتتمكن من استهدافها مرة أخرى.": {
+    "en": "Urgent baskets and abandoned forms will appear here for you to target again.",
+    "fr": "Les paniers urgents et les formulaires abandonnés apparaîtront ici pour que vous puissiez les cibler à nouveau."
+  },
+  "سجل الفواتير": {
+    "en": "Billing history",
+    "fr": "Historique de facturation"
+  },
+  "سجل دخولك إلى لوحة تحكم متجرك": {
+    "en": "Log in to your store's control panel",
+    "fr": "Connectez-vous au panneau de contrôle de votre boutique"
+  },
+  "سجّل الدخول باستخدام بريدك الإلكتروني:": {
+    "en": "Log in with your email:",
+    "fr": "Connectez-vous avec votre email :"
+  },
+  "سرعة تعبئة خارقة أقل من 3 ثواني (بوت روبوت)": {
+    "en": "Super filling speed less than 3 seconds (Bot Robot)",
+    "fr": "Super vitesse de remplissage inférieure à 3 secondes (Bot Robot)"
+  },
+  "سعداء جداً بانضمامك إلينا وبدء رحلتك في عالم التجارة الإلكترونية الخارقة!": {
+    "en": "We are very happy to have you join us and start your journey in the world of breakthrough e-commerce!",
+    "fr": "Nous sommes très heureux que vous nous rejoigniez et que vous commenciez votre voyage dans le monde du commerce électronique révolutionnaire !"
+  },
+  "سعر التكلفة (للحسابات)": {
+    "en": "Cost price (for accounts)",
+    "fr": "Prix de revient (pour les comptes)"
+  },
+  "سلات متروكة": {
+    "en": "Abandoned baskets",
+    "fr": "Paniers abandonnés"
+  },
+  "سلة متروكة جديدة 🛒": {
+    "en": "New abandoned basket 🛒",
+    "fr": "Nouveau panier abandonné 🛒"
+  },
+  "سوق كلاسيك": {
+    "en": "Classic market",
+    "fr": "Marché classique"
+  },
+  "سياسة الاسترجاع والاستبدال": {
+    "en": "Return and exchange policy",
+    "fr": "Politique de retour et d'échange"
+  },
+  "سيتم تطبيق هذا الخط بالكامل على العناوين والمنتجات والاستمارات في متجرك.": {
+    "en": "This font will be fully applied to titles, products, and forms in your store.",
+    "fr": "Cette police sera entièrement appliquée aux titres, produits et formulaires de votre boutique."
+  },
+  "سيتم عرض الواجهة الرئيسية للمتجر، أزرار الشراء، ونموذج الطلب بالكامل باللغة المحددة للعملاء.": {
+    "en": "The store's main interface, purchase buttons, and order form will be fully displayed in the customers' selected language.",
+    "fr": "L'interface principale du magasin, les boutons d'achat et le formulaire de commande seront entièrement affichés dans la langue sélectionnée par les clients."
+  },
+  "سيتواصل معك فريق الدعم خلال 24 ساعة لإتمام عملية الشراء وربط الدومين بمتجرك.": {
+    "en": "The support team will contact you within 24 hours to complete the purchase process and link the domain to your store.",
+    "fr": "L'équipe d'assistance vous contactera dans les 24 heures pour terminer le processus d'achat et lier le domaine à votre boutique."
+  },
+  "سينتهي خلال": {
+    "en": "It will end in",
+    "fr": "Cela se terminera dans"
+  },
+  "شارك رابط المتجر مع عملائك وابدأ بتحقيق المبيعات!": {
+    "en": "Share the store link with your customers and start making sales!",
+    "fr": "Partagez le lien du magasin avec vos clients et commencez à réaliser des ventes !"
+  },
+  "شارك متجرك": {
+    "en": "Share your store",
+    "fr": "Partagez votre boutique"
+  },
+  "شاشة AMOLED": {
+    "en": "AMOLED screen",
+    "fr": "Écran AMOLED"
+  },
+  "شاهد كيف سيبدو نموذج الطلب بالألوان التي اخترتها": {
+    "en": "See how the application form will look in the colors you have chosen",
+    "fr": "Voyez à quoi ressemblera le formulaire de candidature dans les couleurs que vous avez choisies"
+  },
+  "شحن": {
+    "en": "Shipping",
+    "fr": "Expédition"
+  },
+  "شحن سريع ومجاني": {
+    "en": "Fast and free shipping",
+    "fr": "Livraison rapide et gratuite"
+  },
+  "شراء الآن": {
+    "en": "Buy now",
+    "fr": "Acheter maintenant"
+  },
+  "شراء دومين جديد": {
+    "en": "Buy a new domain",
+    "fr": "Acheter un nouveau domaine"
+  },
+  "شرح توضيحي للوسام": {
+    "en": "Explanation of the medal",
+    "fr": "Explication de la médaille"
+  },
+  "شركاء الشحن والدعم اللوجستي": {
+    "en": "Shipping and logistics partners",
+    "fr": "Partenaires d'expédition et de logistique"
+  },
+  "شركات شحن": {
+    "en": "Shipping companies",
+    "fr": "Compagnies maritimes"
+  },
+  "شركة الشحن غير مدعومة حالياً": {
+    "en": "Shipping company is not currently supported",
+    "fr": "La compagnie maritime n'est actuellement pas prise en charge"
+  },
+  "شعار SOUQ AI على المتجر": {
+    "en": "SOUQ AI logo on the store",
+    "fr": "Logo SOUQ AI sur la boutique"
+  },
+  "شفافية الهيدر فوق البانر": {
+    "en": "Header transparency above the banner",
+    "fr": "Transparence de l'en-tête au-dessus de la bannière"
+  },
+  "شكل وحجم الزر": {
+    "en": "Button shape and size",
+    "fr": "Forme et taille du bouton"
+  },
+  "صاحب المتجر": {
+    "en": "Store owner",
+    "fr": "Propriétaire du magasin"
+  },
+  "صباح الخير": {
+    "en": "Good morning",
+    "fr": "Bonjour"
+  },
+  "صمم الهوية البصرية لمتجرك وتحكم بالخطوط والسمات والألوان في ثوانٍ": {
+    "en": "Design your store's visual identity and control fonts, themes and colors in seconds",
+    "fr": "Concevez l'identité visuelle de votre magasin et contrôlez les polices, les thèmes et les couleurs en quelques secondes"
+  },
+  "صور AI": {
+    "en": "AI images",
+    "fr": "Images IA"
+  },
+  "صورة إعلانية بالـ AI": {
+    "en": "AI advertising image",
+    "fr": "Image publicitaire IA"
+  },
+  "صورة الثقة والضمان": {
+    "en": "An image of trust and guarantee",
+    "fr": "Une image de confiance et de garantie"
+  },
+  "صورة مخصصة": {
+    "en": "Custom image",
+    "fr": "Image personnalisée"
+  },
+  "ضمان جودة المنتج": {
+    "en": "Product quality assurance",
+    "fr": "Assurance qualité des produits"
+  },
+  "ضماناتنا": {
+    "en": "Our guarantees",
+    "fr": "Nos garanties"
+  },
+  "طريقة الدفع": {
+    "en": "Payment method",
+    "fr": "Mode de paiement"
+  },
+  "طلبات الشهر": {
+    "en": "Orders of the month",
+    "fr": "Les commandes du mois"
+  },
+  "طلبات اليوم": {
+    "en": "Today's orders",
+    "fr": "Les commandes du jour"
+  },
+  "عالم العطور الأنيقة": {
+    "en": "The world of elegant perfumes",
+    "fr": "Le monde des parfums élégants"
+  },
+  "عامل": {
+    "en": "Worker",
+    "fr": "Ouvrier"
+  },
+  "عبر واتساب": {
+    "en": "Via WhatsApp",
+    "fr": "Par WhatsApp"
+  },
+  "عد إلينا وابدأ البيع من جديد": {
+    "en": "Come back to us and start selling again",
+    "fr": "Revenez vers nous et recommencez à vendre"
+  },
+  "عداد التقييمات": {
+    "en": "Reviews counter",
+    "fr": "Compteur d'avis"
+  },
+  "عدد أيام الاحتفاظ بالنموذج": {
+    "en": "Number of days to keep the form",
+    "fr": "Nombre de jours pour conserver le formulaire"
+  },
+  "عذراً، نظام الحماية الخاصة بالمتجر يرفض استلام طلبك.": {
+    "en": "Sorry, the store's security system refuses to receive your order.",
+    "fr": "Désolé, le système de sécurité du magasin refuse de recevoir votre commande."
+  },
+  "عذراً، نظام الحماية يرفض هذا الطلب لوجود نشاط غير طبيعي أو بيانات غير صحيحة.": {
+    "en": "Sorry, the security system rejects this request due to abnormal activity or incorrect data.",
+    "fr": "Désolé, le système de sécurité rejette cette demande en raison d'une activité anormale ou de données incorrectes."
+  },
+  "عذراً، هذا المتجر قد وصل للحد الأقصى للطلبات المسموحة في باقته الحالية": {
+    "en": "Sorry, this store has reached the maximum number of orders allowed in its current package",
+    "fr": "Désolé, ce magasin a atteint le nombre maximum de commandes autorisées dans son forfait actuel"
+  },
+  "عرض التجار": {
+    "en": "View merchants",
+    "fr": "Voir les marchands"
+  },
+  "عرض منتجات إضافية للعميل عند إتمام الطلب لزيادة قيمة سلة المشتريات (AOV) بطريقة ذكية.": {
+    "en": "Offer additional products to the customer upon order completion to increase the shopping cart value (AOV) in a smart way.",
+    "fr": "Proposez des produits supplémentaires au client une fois la commande terminée pour augmenter la valeur du panier (AOV) de manière intelligente."
+  },
+  "عرض وإدارة الطلبات": {
+    "en": "View and manage orders",
+    "fr": "Afficher et gérer les commandes"
+  },
+  "عروض التوفير الذكية": {
+    "en": "Smart savings offers",
+    "fr": "Offres d'épargne intelligentes"
+  },
+  "عروض الكمية (Upsell / Bundles)": {
+    "en": "Quantity Offers (Upsell / Bundles)",
+    "fr": "Offres de quantité (vente incitative / offres groupées)"
+  },
+  "عطر رويال أوركيد الفاخر": {
+    "en": "Royal Orchid luxury perfume",
+    "fr": "Parfum de luxe Royal Orchid"
+  },
+  "عطر شانيل بلو الأسطوري الأصلي": {
+    "en": "The original legendary Chanel Bleu perfume",
+    "fr": "Le parfum légendaire original de Chanel Bleu"
+  },
+  "عطر ميس ديور الفاخر للذكور": {
+    "en": "Miss Dior luxury perfume for men",
+    "fr": "Parfum de luxe Miss Dior pour homme"
+  },
+  "عطور رجالية": {
+    "en": "Men's perfumes",
+    "fr": "Parfums pour hommes"
+  },
+  "عطور نسائية": {
+    "en": "Women's perfumes",
+    "fr": "Parfums pour femmes"
+  },
+  "على منصة": {
+    "en": "On a platform",
+    "fr": "Sur une plateforme"
+  },
+  "عملاء محتملون لم يكملوا عمليات الشراء.": {
+    "en": "Potential customers who have not completed their purchases.",
+    "fr": "Clients potentiels qui n’ont pas finalisé leurs achats."
+  },
+  "عمود واحد": {
+    "en": "Single column",
+    "fr": "Colonne unique"
+  },
+  "عمودية (تصلح للقصص/ريلز 9:16)": {
+    "en": "Vertical (good for stories/Reels 9:16)",
+    "fr": "Vertical (bon pour les histoires/Reels 9:16)"
+  },
+  "عمودين": {
+    "en": "Two columns",
+    "fr": "Deux colonnes"
+  },
+  "عناصر إضافية": {
+    "en": "Additional items",
+    "fr": "Articles supplémentaires"
+  },
+  "عند التعطيل سيتم استخدام النموذج الأساسي للمنصة": {
+    "en": "When disabled, the basic model of the platform will be used",
+    "fr": "Lorsqu'il est désactivé, le modèle de base de la plateforme sera utilisé"
+  },
+  "عنوان العرض": {
+    "en": "Presentation title",
+    "fr": "Titre de la présentation"
+  },
+  "عنوان العرض الإضافي": {
+    "en": "Additional display title",
+    "fr": "Titre d'affichage supplémentaire"
+  },
+  "غير متاح": {
+    "en": "Not available",
+    "fr": "Non disponible"
+  },
+  "غير محدد": {
+    "en": "Not specified",
+    "fr": "Non précisé"
+  },
+  "غير محدود": {
+    "en": "Unlimited",
+    "fr": "Illimité"
+  },
+  "غير معروف": {
+    "en": "Unknown",
+    "fr": "Inconnu"
+  },
+  "فاتورة": {
+    "en": "invoice",
+    "fr": "facture"
+  },
+  "فاتورة جديدة": {
+    "en": "New invoice",
+    "fr": "Nouvelle facture"
+  },
+  "فشل": {
+    "en": "Failed",
+    "fr": "Échec"
+  },
+  "فشل الاتصال بـ Ecotrack.": {
+    "en": "Failed to connect to Ecotrack.",
+    "fr": "Échec de la connexion à Ecotrack."
+  },
+  "فشل الاتصال بـ GuiDex. تأكد من الـ Token.": {
+    "en": "فشل الاتصال بـ GuiDex. Verify the Token.",
+    "fr": "Échec de la connexion à GuiDex. Vérifiez le jeton."
+  },
+  "فشل الاتصال بـ KaziTour. تأكد من الـ Token.": {
+    "en": "Failed to connect to KaziTour. Verify the Token.",
+    "fr": "Échec de la connexion à KaziTour. Vérifiez le jeton."
+  },
+  "فشل الاتصال بـ Mayesto.": {
+    "en": "Failed to connect to Mayesto.",
+    "fr": "Échec de la connexion à Mayesto."
+  },
+  "فشل الاتصال بـ NordOuest. تأكد من إعدادات الـ API.": {
+    "en": "Failed to connect to NordOuest. Check the API settings.",
+    "fr": "Échec de la connexion à NordOuest. Vérifiez les paramètres de l'API."
+  },
+  "فشل في ZR Express.": {
+    "en": "Failure in ZR Express.",
+    "fr": "Échec dans ZR Express."
+  },
+  "فشل في استرداد الرمز الآمن للتحقق": {
+    "en": "فشل في استرداد الرمز الآمن للتحقق",
+    "fr": "Échec de la récupération du code de vérification sécurisé"
+  },
+  "فشل في تحديث الخطة": {
+    "en": "Failed to update plan",
+    "fr": "Échec de la mise à jour du plan"
+  },
+  "فشل في تعديل الحالة": {
+    "en": "Failed to modify status",
+    "fr": "Échec de la modification du statut"
+  },
+  "فشل في حذف المتجر": {
+    "en": "Failed to delete store",
+    "fr": "Échec de la suppression du magasin"
+  },
+  "فشل في حفظ الطلب:": {
+    "en": "Failed to save request:",
+    "fr": "Échec de l'enregistrement de la demande :"
+  },
+  "فشل في ياليدين، تأكد من مفاتيح API.": {
+    "en": "Failed on both hands, check API keys.",
+    "fr": "Échec des deux mains, vérifiez les clés API."
+  },
+  "فلتر التاجر": {
+    "en": "Trader filter",
+    "fr": "Filtre commerçant"
+  },
+  "قد يعجبك أيضاً": {
+    "en": "You may also like",
+    "fr": "Vous aimerez peut-être aussi"
+  },
+  "قم بإدارة معلومات حسابك الشخصية وأمان كلمة المرور": {
+    "en": "Manage your personal account information and password security",
+    "fr": "Gérez les informations de votre compte personnel et la sécurité de votre mot de passe"
+  },
+  "قم بإضافة وصف شامل لمنتجك هنا، يبرز ميزاته المتعددة والفوائد التي سيحصل عليها العميل.": {
+    "en": "Add a comprehensive description of your product here, highlighting its many features and the benefits the customer will receive.",
+    "fr": "Ajoutez ici une description complète de votre produit, mettant en évidence ses nombreuses fonctionnalités et les avantages dont le client bénéficiera."
+  },
+  "قم بتحديث كلمة المرور الخاصة بحسابك لتعزيز الأمان": {
+    "en": "Update your account password to enhance security",
+    "fr": "Mettez à jour le mot de passe de votre compte pour améliorer la sécurité"
+  },
+  "قم بتحميل صورة الضمان والثقة المخصصة لتظهر أسفل صفحة المتجر بشكل راقٍ ومميز:": {
+    "en": "Upload the custom guarantee and trust image to appear at the bottom of the store page in an elegant and distinctive manner:",
+    "fr": "Téléchargez l'image de garantie et de confiance personnalisée pour qu'elle apparaisse au bas de la page du magasin de manière élégante et distinctive :"
+  },
+  "قم بترقية خطتك لربط دومين مخصص بمتجرك": {
+    "en": "Upgrade your plan to connect a custom domain to your store",
+    "fr": "Mettez à niveau votre forfait pour connecter un domaine personnalisé à votre boutique"
+  },
+  "قم بملء الإعدادات وشعار متجرك، وأدخل معلومات الاتصال لكي تظهر في متجرك": {
+    "en": "Fill in the settings, your store's logo, and enter contact information to appear in your store",
+    "fr": "Remplissez les paramètres, le logo de votre boutique et saisissez les informations de contact pour apparaître dans votre boutique"
+  },
+  "قوالب متجر بريميوم": {
+    "en": "Premium store templates",
+    "fr": "Modèles de boutique premium"
+  },
+  "قياس تحويلات زوار سناب شات وحساب العائد على الاستثمار الإعلاني.": {
+    "en": "Measure Snapchat visitor conversions and calculate advertising ROI.",
+    "fr": "Mesurez les conversions des visiteurs de Snapchat et calculez le retour sur investissement publicitaire."
+  },
+  "قيد الشحن": {
+    "en": "Under shipment",
+    "fr": "En cours d'expédition"
+  },
+  "قيد المعالجة": {
+    "en": "In process",
+    "fr": "En cours"
+  },
+  "كل الفئات": {
+    "en": "All categories",
+    "fr": "Toutes les catégories"
+  },
+  "كلمة مرور جديدة": {
+    "en": "New password",
+    "fr": "Nouveau mot de passe"
+  },
+  "كيفية ربط النطاق الخاص بك للاشتغال بنجاح:": {
+    "en": "How to connect your domain to work successfully:",
+    "fr": "Comment connecter votre domaine pour fonctionner avec succès :"
+  },
+  "لا": {
+    "en": "No",
+    "fr": "Non"
+  },
+  "لا تدفع شيئاً حتى تستلم طلبك بيدك": {
+    "en": "You do not pay anything until you receive your order in hand",
+    "fr": "Vous ne payez rien tant que vous n'avez pas reçu votre commande en main propre"
+  },
+  "لا توجد إشعارات": {
+    "en": "No notifications",
+    "fr": "Aucune notification"
+  },
+  "لا توجد بيانات جغرافية": {
+    "en": "There is no geographical data",
+    "fr": "Il n'y a pas de données géographiques"
+  },
+  "لا توجد بيانات كافية": {
+    "en": "There is not enough data",
+    "fr": "Il n'y a pas assez de données"
+  },
+  "لا توجد بيانات مبيعات بعد": {
+    "en": "There is no sales data yet",
+    "fr": "Il n'y a pas encore de données de ventes"
+  },
+  "لا توجد تنبيهات حالياً. كل الأنظمة تعمل بكفاءة.": {
+    "en": "There are no alerts currently. All systems work efficiently.",
+    "fr": "Il n’y a actuellement aucune alerte. Tous les systèmes fonctionnent efficacement."
+  },
+  "لا توجد شركة شحن مفعلة في الإعدادات.": {
+    "en": "There is no shipping company activated in the settings.",
+    "fr": "Aucune compagnie maritime n’est activée dans les paramètres."
+  },
+  "لا توجد فواتير بعد": {
+    "en": "No invoices yet",
+    "fr": "Pas encore de factures"
+  },
+  "لا توجد نتائج": {
+    "en": "No results found",
+    "fr": "Aucun résultat trouvé"
+  },
+  "لا توجد نتائج مطابقة": {
+    "en": "No matching results found",
+    "fr": "Aucun résultat correspondant trouvé"
+  },
+  "لا يوجد رابط متجر لهذا التاجر": {
+    "en": "There is no store link for this merchant",
+    "fr": "Il n'y a pas de lien de boutique pour ce marchand"
+  },
+  "لغة عرض المتجر للعملاء (Store Language)": {
+    "en": "Store display language for customers",
+    "fr": "Langue d'affichage du magasin pour les clients"
+  },
+  "لقد انتهت فترة خطتك. يرجى التجديد لتجنب توقف متجرك.": {
+    "en": "Your plan period has expired. Please renew to avoid downtime of your store.",
+    "fr": "La période de votre forfait a expiré. Veuillez renouveler pour éviter les temps d'arrêt de votre magasin."
+  },
+  "لقد تم إنشاء متجرك وعالمك الخاص بنجاح، وهو الآن جاهز للتحليق واستقبال منتجاتك وعملائك.": {
+    "en": "Your store and your own world have been successfully created, and it is now ready to fly and receive your products and customers.",
+    "fr": "Votre magasin et votre propre monde ont été créés avec succès, et il est maintenant prêt à voler et à recevoir vos produits et clients."
+  },
+  "للتحقق من الأمان، أجب عن السؤال الرياضي": {
+    "en": "To check security, answer the math question",
+    "fr": "Pour vérifier la sécurité, répondez à la question mathématique"
+  },
+  "لم يتم إرجاع أي نص من النموذج": {
+    "en": "No text was returned from the form",
+    "fr": "Aucun texte n'a été renvoyé du formulaire"
+  },
+  "لم يتم تسجيل أي فواتير بعد. يمكنك إنشاء فاتورة يدوية أو ستظهر الفواتير تلقائياً عند الدفع.": {
+    "en": "No invoices have been registered yet. You can create a manual invoice or invoices will appear automatically at checkout.",
+    "fr": "Aucune facture n'a encore été enregistrée. Vous pouvez créer une facture manuelle ou les factures apparaîtront automatiquement à la caisse."
+  },
+  "لم يتم تعديل أي تفاصيل، تأكد من صحة التاجر.": {
+    "en": "No details have been modified, check the merchant's authenticity.",
+    "fr": "Aucun détail n'a été modifié, vérifiez l'authenticité du marchand."
+  },
+  "لم يتم تفعيل بوابة الدفع بعد، يرجى تزويد مفتاح Chargily Pay للمدير": {
+    "en": "The payment gateway is not yet activated, please provide the Chargily Pay key to the administrator",
+    "fr": "La passerelle de paiement n'est pas encore activée, merci de fournir la clé Chargily Pay à l'administrateur"
+  },
+  "لم يتم تقديم صورة": {
+    "en": "No photo provided",
+    "fr": "Aucune photo fournie"
+  },
+  "لن يظهر للزبون": {
+    "en": "It will not appear to the customer",
+    "fr": "Il n'apparaîtra pas au client"
+  },
+  "لون خط الإعلان": {
+    "en": "Ad font color",
+    "fr": "Couleur de la police de l'annonce"
+  },
+  "لون خلفية الشريط": {
+    "en": "Ribbon background color",
+    "fr": "Couleur de fond du ruban"
+  },
+  "لون خلفية الفوتر": {
+    "en": "Footer background color",
+    "fr": "Couleur d’arrière-plan du pied de page"
+  },
+  "لون سادة": {
+    "en": "Solid color",
+    "fr": "Couleur unie"
+  },
+  "لون نصوص الفوتر": {
+    "en": "Footer text color",
+    "fr": "Couleur du texte du pied de page"
+  },
+  "ليس لديك حساب؟": {
+    "en": "Don't have an account?",
+    "fr": "Vous n'avez pas de compte ?"
+  },
+  "مؤكد": {
+    "en": "Sure",
+    "fr": "Bien sûr"
+  },
+  "متاح للشراء": {
+    "en": "Available for purchase",
+    "fr": "Disponible à l'achat"
+  },
+  "متبقي ${daysLeft} أيام فقط": {
+    "en": "Only ${daysLeft} days left",
+    "fr": "Il ne reste que ${daysLeft} jours"
+  },
+  "متجرنا": {
+    "en": "Our store",
+    "fr": "Notre magasin"
+  },
+  "مثال: اطلب حبتين بسعر 3500 د.ج": {
+    "en": "Example: Order two pills at a price of 3500 DZD",
+    "fr": "Exemple : Commandez deux pilules au prix de 3500 DZD"
+  },
+  "مثال: التوصيل مجاني لجميع الولايات والدفع عند الاستلام 🚚💰": {
+    "en": "Example: Free delivery to all states and payment upon delivery 🚚💰",
+    "fr": "Exemple : Livraison gratuite dans tous les États et paiement à la livraison 🚚💰"
+  },
+  "مثال: تسوق الآن 🛍️": {
+    "en": "Example: Shop now 🛍️",
+    "fr": "Exemple : Achetez maintenant 🛍️"
+  },
+  "مثال: تواصل معنا مباشرة 💬": {
+    "en": "Example: Contact us directly 💬",
+    "fr": "Exemple : Contactez-nous directement 💬"
+  },
+  "مجاني 🆓": {
+    "en": "Free 🆓",
+    "fr": "Gratuit 🆓"
+  },
+  "محاذاة أنيقة، مثالي للعطور والمجوهرات": {
+    "en": "Elegant alignment, perfect for perfume and jewelry",
+    "fr": "Alignement élégant, parfait pour les parfums et les bijoux"
+  },
+  "محظور 🚫": {
+    "en": "Banned 🚫",
+    "fr": "Interdit 🚫"
+  },
+  "محمد عبدالله": {
+    "en": "Muhammad Abdullah",
+    "fr": "Mohammed Abdallah"
+  },
+  "مخاطرة عالية": {
+    "en": "High risk",
+    "fr": "Risque élevé"
+  },
+  "مدفوع": {
+    "en": "Paid",
+    "fr": "Payé"
+  },
+  "مربعة (1:1)": {
+    "en": "Square (1:1)",
+    "fr": "Carré (1:1)"
+  },
+  "مرحباً": {
+    "en": "Hello",
+    "fr": "Bonjour"
+  },
+  "مرحباً بعودتك": {
+    "en": "Welcome back",
+    "fr": "Bon retour"
+  },
+  "مرحباً بك في SOUQai ✨": {
+    "en": "Welcome to SOUQai ✨",
+    "fr": "Bienvenue à SOUQai ✨"
+  },
+  "مركز الإشعارات": {
+    "en": "Notification Center",
+    "fr": "Centre de notifications"
+  },
+  "مزامنة تلقائية وفورية للطلبات": {
+    "en": "Automatic and instant synchronization of orders",
+    "fr": "Synchronisation automatique et instantanée des commandes"
+  },
+  "مساء الخير": {
+    "en": "Good evening",
+    "fr": "Bonsoir"
+  },
+  "مساء النور": {
+    "en": "Good evening",
+    "fr": "Bonsoir"
+  },
+  "مسترجع": {
+    "en": "Retrieved",
+    "fr": "Récupéré"
+  },
+  "مستمر": {
+    "en": "Continuous",
+    "fr": "Continu"
+  },
+  "مطاعم": {
+    "en": "Restaurants",
+    "fr": "Restaurants"
+  },
+  "مع خالص التحيات،": {
+    "en": "With sincere regards,",
+    "fr": "Avec mes sincères salutations,"
+  },
+  "معاينة المتجر": {
+    "en": "Store preview",
+    "fr": "Aperçu du magasin"
+  },
+  "معاينة المتجر الحية": {
+    "en": "Live store preview",
+    "fr": "Aperçu du magasin en direct"
+  },
+  "معاينة حية للنموذج": {
+    "en": "Live preview of the model",
+    "fr": "Aperçu en direct du modèle"
+  },
+  "معرف التاجر": {
+    "en": "Merchant ID",
+    "fr": "Identifiant du marchand"
+  },
+  "معلق": {
+    "en": "Pending",
+    "fr": "En attente"
+  },
+  "معلّق": {
+    "en": "Pending",
+    "fr": "En attente"
+  },
+  "مفتاح Gemini API غير موجود. أضفه من إعدادات المنصة (الربط والمفاتيح)": {
+    "en": "Gemini API key not found. Add it from the platform settings (binding and keys)",
+    "fr": "Clé API Gemini introuvable. Ajoutez-le depuis les paramètres de la plateforme (liaison et clés)"
+  },
+  "مفتاح Resend API (البريد الإلكتروني)": {
+    "en": "Resend API Key (Email)",
+    "fr": "Renvoyer la clé API (e-mail)"
+  },
+  "مفرغ بحدود (Outline)": {
+    "en": "Outline",
+    "fr": "Aperçu"
+  },
+  "مفعّل ✓": {
+    "en": "Activated ✓",
+    "fr": "Activé ✓"
+  },
+  "مكامل ونشط": {
+    "en": "مكامل ونشط",
+    "fr": "Intégré et actif"
+  },
+  "مكتمل ·": {
+    "en": "Complete ·",
+    "fr": "Terminé ·"
+  },
+  "ملاحظة: تحتاج هذه الشركة إلى كلاً من المعرف (Key/ID) والرمز السري (Token).": {
+    "en": "Note: This company requires both a Key/ID and a Token.",
+    "fr": "Remarque : Cette société nécessite à la fois une clé/ID et un jeton."
+  },
+  "ملخص سريع": {
+    "en": "Quick summary",
+    "fr": "Résumé rapide"
+  },
+  "ملغي": {
+    "en": "Canceled",
+    "fr": "Annulé"
+  },
+  "منتج احترافي": {
+    "en": "Professional product",
+    "fr": "Produit professionnel"
+  },
+  "منتج بدون اسم": {
+    "en": "Product without name",
+    "fr": "Produit sans nom"
+  },
+  "منتجات أصلية 100% عالية الجودة": {
+    "en": "100% original high quality products",
+    "fr": "Produits 100% originaux de haute qualité"
+  },
+  "منتهي": {
+    "en": "Finished",
+    "fr": "Terminé"
+  },
+  "منتهي ⏰": {
+    "en": "Finished ⏰",
+    "fr": "Terminé ⏰"
+  },
+  "منتهية": {
+    "en": "Finished",
+    "fr": "Terminé"
+  },
+  "منتهية الصلاحية": {
+    "en": "Expired",
+    "fr": "Expiré"
+  },
+  "موثوق ✓": {
+    "en": "Trusted ✓",
+    "fr": "Confiance ✓"
+  },
+  "نتائج البحث عن \"{domainSearch}\":": {
+    "en": "Search results for \"{domainSearch}\":",
+    "fr": "Résultats de recherche pour \"{domainSearch}\":"
+  },
+  "نتمنى لك تجربة تجارة إلكترونية ناجحة ومربحة معنا!": {
+    "en": "We wish you a successful and profitable e-commerce experience with us!",
+    "fr": "Nous vous souhaitons une expérience e-commerce réussie et rentable avec nous !"
+  },
+  "نتمنى لك مبيعات ضخمة وتجارة رابحة لا تتوقف! 🚀": {
+    "en": "We wish you huge sales and profitable business that does not stop! 🚀",
+    "fr": "Nous vous souhaitons d'énormes ventes et des affaires rentables qui ne s'arrêtent pas ! 🚀"
+  },
+  "نسيت كلمة المرور": {
+    "en": "I forgot my password",
+    "fr": "J'ai oublié mon mot de passe"
+  },
+  "نسيت كلمة المرور؟": {
+    "en": "Forgot your password?",
+    "fr": "Vous avez oublié votre mot de passe ?"
+  },
+  "نشاط مباشر الآن": {
+    "en": "Live activity now",
+    "fr": "Activité en direct maintenant"
+  },
+  "نص الإعلان": {
+    "en": "Advertisement text",
+    "fr": "Texte de l'annonce"
+  },
+  "نص التلميح بجانب الزر": {
+    "en": "Hint text next to the button",
+    "fr": "Texte d'indice à côté du bouton"
+  },
+  "نص بالذكاء الاصطناعي": {
+    "en": "Artificial intelligence text",
+    "fr": "Texte d'intelligence artificielle"
+  },
+  "نص زر الواجهة (CTA)": {
+    "en": "Interface button text (CTA)",
+    "fr": "Texte du bouton d'interface (CTA)"
+  },
+  "نص متحرك انسيابي (Marquee) للفت انتباه العملاء": {
+    "en": "Streamlined animated text (Marquee) to grab customers' attention",
+    "fr": "Texte animé simplifié (Marquee) pour attirer l'attention des clients"
+  },
+  "نصائح لكلمة مرور قوية:": {
+    "en": "Tips for a strong password:",
+    "fr": "Conseils pour un mot de passe fort :"
+  },
+  "نصوص AI": {
+    "en": "AI texts",
+    "fr": "Textes IA"
+  },
+  "نطاق المتجر": {
+    "en": "Store scope",
+    "fr": "Portée du magasin"
+  },
+  "نطاق مخصص": {
+    "en": "Custom domain",
+    "fr": "Domaine personnalisé"
+  },
+  "نظام العروض الإضافية (Upsell)": {
+    "en": "Upsell system",
+    "fr": "Système de vente incitative"
+  },
+  "نظام حماية المتجر المتطور": {
+    "en": "Advanced store protection system",
+    "fr": "Système avancé de protection du magasin"
+  },
+  "نظرة عامة": {
+    "en": "Overview",
+    "fr": "Aperçu"
+  },
+  "نعم، السعر هو": {
+    "en": "Yes, the price is",
+    "fr": "Oui, le prix est"
+  },
+  "نفد المخزون": {
+    "en": "Out of stock",
+    "fr": "En rupture de stock"
+  },
+  "نموذج الطلب": {
+    "en": "Application form",
+    "fr": "Formulaire de candidature"
+  },
+  "نهاية الاشتراك": {
+    "en": "End of subscription",
+    "fr": "Fin de l'abonnement"
+  },
+  "نوع الامتداد": {
+    "en": "Extension type",
+    "fr": "Type de poste"
+  },
+  "نوع خلفية البانر": {
+    "en": "Banner background type",
+    "fr": "Type d'arrière-plan de la bannière"
+  },
+  "هذا هو اللون الرئيسي الذي سيُستخدم في الأزرار والرموز وخلفيات بعض العناصر الهامة لجذب انتباه العملاء.": {
+    "en": "This is the main color that will be used in buttons, icons and backgrounds of some important elements to attract customers' attention.",
+    "fr": "C'est la couleur principale qui sera utilisée dans les boutons, les icônes et les arrière-plans de certains éléments importants pour attirer l'attention des clients."
+  },
+  "هذه الميزة متاحة للخطط المدفوعة فقط": {
+    "en": "This feature is available for paid plans only",
+    "fr": "This feature is available for paid plans only"
+  },
+  "هل أنت متأكد من أن هذا الطلب سليم وتريد رفع علامة الاحتيال عنه؟": {
+    "en": "Are you sure this request is valid and want to remove the fraud mark?",
+    "fr": "Êtes-vous sûr que cette demande est valide et souhaitez-vous supprimer la marque de fraude ?"
+  },
+  "هل أنت متأكد من حذف هذا المتجر نهائياً؟": {
+    "en": "Are you sure you want to delete this store permanently?",
+    "fr": "Êtes-vous sûr de vouloir supprimer définitivement cette boutique ?"
+  },
+  "هل أنت متأكد من رغبتك في حظر هذا العميل (بتتبع الـ IP ورقم الهاتف) بشكل نهائي من المتجر؟": {
+    "en": "Are you sure you want to permanently ban this customer (by tracking IP and phone number) from the store?",
+    "fr": "Êtes-vous sûr de vouloir exclure définitivement ce client (en suivant son adresse IP et son numéro de téléphone) du magasin ?"
+  },
+  "وإضافة السجلات التالية:": {
+    "en": "Add the following records:",
+    "fr": "Ajoutez les enregistrements suivants :"
+  },
+  "واتساب": {
+    "en": "WhatsApp",
+    "fr": "WhatsApp"
+  },
+  "وجبة برجر التاجر الفاخرة": {
+    "en": "Luxury merchant burger meal",
+    "fr": "Repas burger marchand de luxe"
+  },
+  "وجبة ساخنة": {
+    "en": "Hot meal",
+    "fr": "Repas chaud"
+  },
+  "وسام الثقة": {
+    "en": "Trust Medal",
+    "fr": "Médaille de confiance"
+  },
+  "يتم حالياً استخدام النموذج الأساسي الافتراضي للمنصة. قم بتفعيل التخصيص لتعديل الألوان والمظهر.": {
+    "en": "The default platform model is currently used. Activate customization to modify colors and appearance.",
+    "fr": "Le modèle de plateforme par défaut est actuellement utilisé. Activez la personnalisation pour modifier les couleurs et l'apparence."
+  },
+  "يدعم شركات الشحن الجزائرية الرائدة بنسبة 100%": {
+    "en": "Supports leading Algerian shipping companies 100%",
+    "fr": "Soutient à 100% les principales compagnies maritimes algériennes"
+  },
+  "يرجى إدخال الرمز المكون من 6 أرقام المرسل إلى بريدك الإلكتروني لتأكيد التغيير": {
+    "en": "Please enter the 6-digit code sent to your email to confirm the change",
+    "fr": "Veuillez saisir le code à 6 chiffres envoyé à votre adresse e-mail pour confirmer le changement"
+  },
+  "يرجى التحقق من بريدك الإلكتروني لإكمال التسجيل.": {
+    "en": "Please check your email to complete registration.",
+    "fr": "Veuillez vérifier votre courrier électronique pour finaliser votre inscription."
+  },
+  "يرجى الذهاب إلى لوحة تحكم الشركة التي اشتريت منها النطاق، ثم البحث عن إعدادات": {
+    "en": "Please go to the control panel of the company you purchased the domain from, then search for Settings",
+    "fr": "Veuillez accéder au panneau de configuration de la société auprès de laquelle vous avez acheté le domaine, puis recherchez Paramètres."
+  },
+  "يرجى تجديد اشتراكك لاستعادة الوصول الكامل لجميع المميزات.": {
+    "en": "Please renew your subscription to regain full access to all features.",
+    "fr": "Veuillez renouveler votre abonnement pour retrouver un accès complet à toutes les fonctionnalités."
+  },
+  "يرجى مراجعة التفاصيل قبل تأكيد الطلب": {
+    "en": "Please check the details before confirming the order",
+    "fr": "Veuillez vérifier les détails avant de confirmer la commande"
+  },
+  "يسمح للزبائن بالتبديل بين الوضع الليلي والنهاري": {
+    "en": "Allows customers to switch between day and night mode",
+    "fr": "Permet aux clients de basculer entre le mode jour et nuit"
+  },
+  "يظهر بشكل ثابت في زاوية الشاشة للتواصل الفوري": {
+    "en": "It appears permanently in the corner of the screen for instant communication",
+    "fr": "Il apparaît en permanence dans le coin de l'écran pour une communication instantanée"
+  },
+  "يظهر زر واتساب عائم في صفحة المنتج لتسهيل التواصل": {
+    "en": "A floating WhatsApp button appears on the product page to facilitate communication",
+    "fr": "Un bouton WhatsApp flottant apparaît sur la page produit pour faciliter la communication"
+  },
+  "يعرض عداد تقييمات وهمية لزيادة الثقة لدى الزائر": {
+    "en": "Displays a fake rating counter to increase visitor confidence",
+    "fr": "Affiche un faux compteur de notes pour augmenter la confiance des visiteurs"
+  },
+  "يعرض نجوم التقييم الصفراء (★ ★ ★ ★ ★) لجذب الزبائن": {
+    "en": "Displays yellow rating stars (★ ★ ★ ★ ★) to attract customers",
+    "fr": "Affiche des étoiles de notation jaunes (★ ★ ★ ★ ★) pour attirer les clients"
+  },
+  "يمكنك الآن الاستمتاع بجميع مميزات خطتك. لوحة التحكم جاهزة لك!": {
+    "en": "You can now enjoy all the benefits of your plan. The control panel is ready for you!",
+    "fr": "Vous pouvez désormais profiter de tous les avantages de votre forfait. Le panneau de contrôle est prêt pour vous !"
+  },
+  "يمكنك تعديل اسمك الكامل هنا وسيظهر لعملائك": {
+    "en": "You can edit your full name here and it will appear to your clients",
+    "fr": "Vous pouvez modifier votre nom complet ici et il apparaîtra à vos clients"
+  },
+  "ينتهي العرض خلال:": {
+    "en": "Offer ends in:",
+    "fr": "L'offre se termine dans :"
+  },
+  "ينتهي اليوم": {
+    "en": "Ends today",
+    "fr": "Se termine aujourd'hui"
+  },
+  "ينتهي اليوم!": {
+    "en": "Ends today!",
+    "fr": "Se termine aujourd'hui !"
+  },
+  "ينتهي غداً": {
+    "en": "Ends tomorrow",
+    "fr": "Se termine demain"
+  },
+  "ينتهي قريباً": {
+    "en": "Ends soon",
+    "fr": "Se termine bientôt"
+  },
+  "ينتهي قريباً (7 أيام)": {
+    "en": "Ending soon (7 days)",
+    "fr": "Se termine bientôt (7 jours)"
+  },
+  "يندمج الهيدر بشفافية تامة فوق البانر الهيرو": {
+    "en": "The header blends in completely transparently over the hero banner",
+    "fr": "L'en-tête se fond de manière totalement transparente sur la bannière du héros."
+  },
+  "يوجد عدد كبير من الطلبات المعلقة عبر المنصة.": {
+    "en": "There are a large number of pending orders on the platform.",
+    "fr": "Il existe un grand nombre de commandes en attente sur la plateforme."
+  },
+  "يوم": {
+    "en": "day",
+    "fr": "jour"
+  },
+  "يُستخدم لإرسال إشعارات انتهاء الاشتراك والتجديد عبر البريد": {
+    "en": "Used to mail subscription expiration and renewal notices",
+    "fr": "Utilisé pour envoyer des avis d'expiration et de renouvellement d'abonnement"
+  },
+  "✨ البانر والواجهة الرئيسية (Hero Banner Section)": {
+    "en": "✨ Banner and main interface (Hero Banner Section)",
+    "fr": "✨ Bannière et interface principale (Section Hero Banner)"
+  },
+  "🎨 سمة وقالب المتجر والخطوط": {
+    "en": "🎨 Store theme, template and fonts",
+    "fr": "🎨 Thème, modèle et polices du magasin"
+  },
+  "🎯 خطوات الانضمام:": {
+    "en": "🎯 Steps to join:",
+    "fr": "🎯 Étapes pour adhérer :"
+  },
+  "🎯 ما هي خطواتك القادمة؟": {
+    "en": "🎯 What are your next steps?",
+    "fr": "🎯 Quelles sont vos prochaines étapes ?"
+  },
+  "🏠 الولاية": {
+    "en": "🏠 State",
+    "fr": "🏠 État"
+  },
+  "👣 تخصيص الفوتر والروابط السفلية (Footer Settings)": {
+    "en": "👣 Customize footer and bottom links (Footer Settings)",
+    "fr": "👣 Personnaliser le pied de page et les liens inférieurs (Paramètres du pied de page)"
+  },
+  "👥 جميع التجار ({merchants.length})": {
+    "en": "👥 All traders ( {merchants.length} )",
+    "fr": "👥 Tous les commerçants ( {merchants.length} )"
+  },
+  "💬 زر واتساب العائم والمساعدة (WhatsApp Floating Button)": {
+    "en": "💬 WhatsApp Floating Button",
+    "fr": "💬 WhatsApp Floating Button"
+  },
+  "💻 محرر أكواد CSS مخصصة (Custom CSS Advanced)": {
+    "en": "💻Custom CSS Advanced",
+    "fr": "💻CSS personnalisé avancé"
+  },
+  "📞 رقم الهاتف": {
+    "en": "📞 Phone number",
+    "fr": "📞 Numéro de téléphone"
+  },
+  "📢 شريط الإعلان العلوي (Header Announcement)": {
+    "en": "📢 Header Announcement",
+    "fr": "📢 Annonce d'en-tête"
+  },
+  "🔗 الرابط السحري لمتجرك هو:": {
+    "en": "🔗 The magic link to your store is:",
+    "fr": "🔗 Le lien magique vers votre boutique est :"
+  },
+  "🔥 خصم 50%": {
+    "en": "🔥 50% discount",
+    "fr": "🔥 50% de réduction"
+  },
+  "🙎‍♂️ الإسم الكامل": {
+    "en": "🙎‍♂️ Full name",
+    "fr": "🙎‍♂️ Nom complet"
+  },
+  "🛍️ شبكة وعرض كروت المنتجات (Products Cards & Grid)": {
+    "en": "🛍️ Products Cards & Grid",
+    "fr": "🛍️ Cartes et grille de produits"
+  },
+  "🛒 أكمل طلبك الآن": {
+    "en": "🛒 Complete your order now",
+    "fr": "🛒 Complétez votre commande maintenant"
+  },
+  "🛡️ صورة الضمان والثقة أسفل المتجر (Trust Image)": {
+    "en": "🛡️ Guarantee and trust image at the bottom of the store (Trust Image)",
+    "fr": "🛡️ Image de garantie et de confiance en bas du magasin (Trust Image)"
+  },
+  "🧭 شريط التنقل العلوي والقائمة (Header Settings)": {
+    "en": "🧭 Top navigation bar and menu (Header Settings)",
+    "fr": "🧭 Barre de navigation supérieure et menu (paramètres d'en-tête)"
+  }
+}

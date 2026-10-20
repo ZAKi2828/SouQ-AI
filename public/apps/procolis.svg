@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="procGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="32" fill="url(#procGrad)"/>
+  <circle cx="100" cy="88" r="32" fill="none" stroke="white" stroke-width="6" opacity="0.9"/>
+  <line x1="100" y1="56" x2="100" y2="88" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <line x1="100" y1="88" x2="118" y2="106" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <text x="100" y="148" font-family="Arial Black, sans-serif" font-size="20" font-weight="900" fill="white" text-anchor="middle" dominant-baseline="middle">PROCOLIS</text>
+</svg>
