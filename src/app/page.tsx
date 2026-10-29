@@ -167,7 +167,7 @@ const getTrackingApps = (t: any) => [
 ];
 
 export default function Page() {
-    const { t } = useI18n();
+    const { lang, setLang, t } = useI18n();
   const { resolvedTheme } = useTheme();
   const trackingApps = getTrackingApps(t);
   const [activeAppId, setActiveAppId] = useState('facebook');
@@ -368,7 +368,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div dir="rtl" className="min-h-screen bg-white dark:bg-zinc-950 text-slate-900 dark:text-white font-cairo selection:bg-pink-500/30 overflow-hidden transition-colors duration-500">
+    <div dir={lang === 'ar' ? 'rtl' : 'ltr'} className="min-h-screen bg-white dark:bg-zinc-950 text-slate-900 dark:text-white font-cairo selection:bg-pink-500/30 overflow-hidden transition-colors duration-500">
       
       {/* Navbar */}
       <nav className={`fixed w-full z-50 transition-all duration-300 backdrop-blur-xl border-b ${
@@ -385,10 +385,10 @@ export default function Page() {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8 space-x-reverse">
+            <div className="hidden md:flex items-center gap-6">
               <a className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="#templates">{t('t_80b5bbe8')}</a>
               <a className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="#features">{t('t_8de9b932')}</a>
-              <a className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="#profit-calculator">حاسبة الأرباح</a>
+              <a className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="#profit-calculator">{lang === 'ar' ? 'حاسبة الأرباح' : 'Profit Calculator'}</a>
               <a className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="#pricing">{t('t_7ef79796')}</a>
               <Link className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="/login">{t('t_60a05e7e')}</Link>
               <button 
@@ -396,12 +396,52 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-pink-500/10 hover:bg-pink-500/20 text-pink-600 dark:text-pink-400 text-xs font-bold border border-pink-500/20 transition-all shadow-sm"
               >
                 <span className="material-symbols-outlined text-[16px]">play_circle</span>
-                <span>فيديو ترحيبي</span>
+                <span>{lang === 'ar' ? 'فيديو ترحيبي' : lang === 'fr' ? 'Vidéo Bienvenue' : 'Welcome Video'}</span>
               </button>
             </div>
 
             {/* Actions */}
             <div className="flex items-center gap-4">
+              
+              {/* Language Switcher */}
+              <div className="relative group">
+                <button
+                  type="button"
+                  onClick={() => setLang(lang === 'en' ? 'ar' : lang === 'ar' ? 'fr' : 'en')}
+                  className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-slate-200 dark:border-white/10 hover:border-pink-500/40 bg-slate-100/60 dark:bg-white/5 text-xs font-bold text-slate-700 dark:text-slate-200 transition-all shadow-sm"
+                  title="Switch Language (English / العربية / Français)"
+                >
+                  <span className="material-symbols-outlined text-[17px] text-pink-500">translate</span>
+                  <span className="uppercase tracking-wider font-black">{lang}</span>
+                  <span className="material-symbols-outlined text-[14px] text-slate-400 group-hover:rotate-180 transition-transform">expand_more</span>
+                </button>
+                <div className="absolute top-full mt-1 end-0 hidden group-hover:flex flex-col bg-white dark:bg-[#0E131F] border border-slate-200 dark:border-white/10 rounded-2xl shadow-xl py-1 px-1 min-w-[120px] z-50">
+                  <button
+                    type="button"
+                    onClick={() => setLang('en')}
+                    className={`flex items-center justify-between px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${lang === 'en' ? 'bg-pink-500 text-white' : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-white/5'}`}
+                  >
+                    <span>English</span>
+                    {lang === 'en' && <span className="text-[10px]">✓</span>}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setLang('ar')}
+                    className={`flex items-center justify-between px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${lang === 'ar' ? 'bg-pink-500 text-white' : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-white/5'}`}
+                  >
+                    <span>العربية</span>
+                    {lang === 'ar' && <span className="text-[10px]">✓</span>}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setLang('fr')}
+                    className={`flex items-center justify-between px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${lang === 'fr' ? 'bg-pink-500 text-white' : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-white/5'}`}
+                  >
+                    <span>Français</span>
+                    {lang === 'fr' && <span className="text-[10px]">✓</span>}
+                  </button>
+                </div>
+              </div>
               <ThemeToggle className="hidden sm:flex border-slate-200 dark:border-white/10" />
 
               {!loadingSession && (
@@ -425,6 +465,14 @@ export default function Page() {
               
               {/* Mobile menu button */}
               <div className="md:hidden flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setLang(lang === 'en' ? 'ar' : lang === 'ar' ? 'fr' : 'en')}
+                  className="w-9 h-9 flex items-center justify-center rounded-xl border border-slate-200 dark:border-white/10 bg-slate-100/60 dark:bg-white/5 text-[11px] font-black uppercase text-pink-600 dark:text-pink-400"
+                  title="Switch Language"
+                >
+                  {lang}
+                </button>
                 <ThemeToggle className="flex sm:hidden border-slate-200 dark:border-white/10" />
                 <button className="text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white">
                   <span className="material-symbols-outlined text-3xl">menu</span>
@@ -2043,7 +2091,7 @@ export default function Page() {
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
               transition={{ type: 'spring', damping: 25, stiffness: 300 }}
               className="relative w-full max-w-3xl bg-[#0B0F19] border border-pink-500/30 rounded-3xl p-5 sm:p-7 shadow-2xl shadow-pink-500/20 overflow-hidden z-10"
-              dir="rtl"
+              dir="ltr"
             >
               {/* Background ambient glow */}
               <div className="absolute top-0 right-1/4 w-72 h-72 bg-pink-500/15 rounded-full blur-3xl pointer-events-none" />
@@ -2052,8 +2100,8 @@ export default function Page() {
               {/* Close Button X */}
               <button
                 onClick={handleCloseWelcomeModal}
-                className="absolute top-4 left-4 z-20 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center border border-white/15 transition-all hover:scale-105"
-                title="إغلاق"
+                className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center border border-white/15 transition-all hover:scale-105"
+                title="Close"
               >
                 <span className="material-symbols-outlined text-xl">close</span>
               </button>
@@ -2062,13 +2110,13 @@ export default function Page() {
               <div className="flex flex-col items-center text-center mb-5">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-pink-500/20 to-purple-500/20 border border-pink-500/30 mb-3">
                   <span className="text-amber-400 text-sm">👑</span>
-                  <span className="text-xs font-bold text-pink-300">مرحباً بلجنة التحكيم الموقرين</span>
+                  <span className="text-xs font-bold text-pink-300">Welcome Distinguished Judges & Evaluators</span>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-                  عرض تعريفي سريع لمنصة <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400">SOUQ AI</span>
+                  Quick Introduction to <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400">SOUQ AI</span> Platform
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium mt-1">
-                  شاهد الفيديو الترحيبي للتعرف على أبرز ميزات المنصة وكواليس العمل
+                <p className="text-xs sm:text-sm text-slate-400 font-medium mt-1 max-w-xl">
+                  Watch this overview video to explore key features, autonomous AI agents, and platform capabilities.
                 </p>
               </div>
 
@@ -2081,7 +2129,7 @@ export default function Page() {
                   playsInline
                   className="w-full h-full object-contain"
                 >
-                  متصفحك لا يدعم تشغيل الفيديو.
+                  Your browser does not support HTML5 video playback.
                 </video>
               </div>
 
@@ -2089,7 +2137,7 @@ export default function Page() {
               <div className="mt-5 flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-white/10">
                 <div className="flex items-center gap-2 text-xs text-slate-400 font-medium">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span>تصفح المنصة مباشرة أو ادخل للوحة التاجر</span>
+                  <span>Ready to evaluate live platform demo or sign in</span>
                 </div>
 
                 <div className="flex items-center gap-2.5">
@@ -2098,15 +2146,15 @@ export default function Page() {
                     onClick={handleCloseWelcomeModal}
                     className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-pink-600 to-rose-500 hover:from-pink-500 hover:to-rose-400 text-white font-bold text-xs sm:text-sm shadow-lg shadow-pink-500/25 transition-all flex items-center gap-2"
                   >
-                    <span>تجربة المنصة / دخول</span>
-                    <span className="material-symbols-outlined text-[16px]">arrow_back</span>
+                    <span>Explore Platform / Demo</span>
+                    <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
                   </Link>
 
                   <button
                     onClick={handleCloseWelcomeModal}
                     className="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-slate-300 font-bold text-xs sm:text-sm transition-all"
                   >
-                    متابعة التصفح
+                    Continue Browsing
                   </button>
                 </div>
               </div>

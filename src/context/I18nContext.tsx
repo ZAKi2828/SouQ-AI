@@ -244,7 +244,7 @@ const translations: Record<Language, Record<string, string>> = {
 };
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const [lang, setLangState] = useState<Language>('ar');
+  const [lang, setLangState] = useState<Language>('en');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -253,6 +253,9 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
       setLangState(saved);
       document.documentElement.lang = saved;
       document.documentElement.dir = saved === 'ar' ? 'rtl' : 'ltr';
+    } else {
+      document.documentElement.lang = 'en';
+      document.documentElement.dir = 'ltr';
     }
     setMounted(true);
   }, []);
@@ -266,7 +269,7 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
 
   const t = useCallback((key: string) => {
     if (!key) return '';
-    const group = translations[lang] || translations['ar'];
+    const group = translations[lang] || translations['en'] || translations['ar'];
     return group[key] || key;
   }, [lang]);
 
