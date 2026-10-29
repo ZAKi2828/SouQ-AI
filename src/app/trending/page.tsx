@@ -505,7 +505,7 @@ export default function TrendingProductsPage() {
         body: JSON.stringify({
           category: agentCategory !== 'all' ? agentCategory : undefined,
           customQuery: agentTheme.trim() || undefined,
-          count: 20
+          count: 12
         })
       });
 
