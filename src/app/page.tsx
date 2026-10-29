@@ -271,6 +271,21 @@ export default function Page() {
     return () => clearInterval(interval);
   }, [hoveredAppId, activeTab]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [showWelcomeModal, setShowWelcomeModal] = useState(false);
+
+  useEffect(() => {
+    // Show modal on initial landing if not dismissed in this session
+    const isDismissed = sessionStorage.getItem('souqai_welcome_modal_dismissed');
+    if (!isDismissed) {
+      const timer = setTimeout(() => setShowWelcomeModal(true), 700);
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
+  const handleCloseWelcomeModal = () => {
+    setShowWelcomeModal(false);
+    sessionStorage.setItem('souqai_welcome_modal_dismissed', 'true');
+  };
   const [session, setSession] = useState<any>(null);
   const [userInitial, setUserInitial] = useState<string>('');
   const [loadingSession, setLoadingSession] = useState(true);
@@ -376,6 +391,13 @@ export default function Page() {
               <a className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="#profit-calculator">حاسبة الأرباح</a>
               <a className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="#pricing">{t('t_7ef79796')}</a>
               <Link className="text-sm font-bold text-slate-500 dark:text-slate-300 hover:text-pink-600 dark:hover:text-white transition-colors" href="/login">{t('t_60a05e7e')}</Link>
+              <button 
+                onClick={() => setShowWelcomeModal(true)}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-pink-500/10 hover:bg-pink-500/20 text-pink-600 dark:text-pink-400 text-xs font-bold border border-pink-500/20 transition-all shadow-sm"
+              >
+                <span className="material-symbols-outlined text-[16px]">play_circle</span>
+                <span>فيديو ترحيبي</span>
+              </button>
             </div>
 
             {/* Actions */}
@@ -2000,6 +2022,98 @@ export default function Page() {
           </div>
         </div>
       </footer>
+
+      {/* Judges / Welcome Video Modal */}
+      <AnimatePresence>
+        {showWelcomeModal && (
+          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+            {/* Backdrop */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={handleCloseWelcomeModal}
+              className="fixed inset-0 bg-black/80 backdrop-blur-md"
+            />
+
+            {/* Modal Card */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+              className="relative w-full max-w-3xl bg-[#0B0F19] border border-pink-500/30 rounded-3xl p-5 sm:p-7 shadow-2xl shadow-pink-500/20 overflow-hidden z-10"
+              dir="rtl"
+            >
+              {/* Background ambient glow */}
+              <div className="absolute top-0 right-1/4 w-72 h-72 bg-pink-500/15 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-indigo-500/15 rounded-full blur-3xl pointer-events-none" />
+
+              {/* Close Button X */}
+              <button
+                onClick={handleCloseWelcomeModal}
+                className="absolute top-4 left-4 z-20 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center border border-white/15 transition-all hover:scale-105"
+                title="إغلاق"
+              >
+                <span className="material-symbols-outlined text-xl">close</span>
+              </button>
+
+              {/* Header Badge & Title */}
+              <div className="flex flex-col items-center text-center mb-5">
+                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-pink-500/20 to-purple-500/20 border border-pink-500/30 mb-3">
+                  <span className="text-amber-400 text-sm">👑</span>
+                  <span className="text-xs font-bold text-pink-300">مرحباً بلجنة التحكيم الموقرين</span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
+                  عرض تعريفي سريع لمنصة <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400">SOUQ AI</span>
+                </h3>
+                <p className="text-xs sm:text-sm text-slate-400 font-medium mt-1">
+                  شاهد الفيديو الترحيبي للتعرف على أبرز ميزات المنصة وكواليس العمل
+                </p>
+              </div>
+
+              {/* Video Player Box */}
+              <div className="relative aspect-video w-full rounded-2xl overflow-hidden bg-black/60 border border-white/10 shadow-inner group">
+                <video
+                  src="/welcome_judges.mp4"
+                  controls
+                  autoPlay
+                  playsInline
+                  className="w-full h-full object-contain"
+                >
+                  متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+              </div>
+
+              {/* Footer Actions / Quick Navigation */}
+              <div className="mt-5 flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-white/10">
+                <div className="flex items-center gap-2 text-xs text-slate-400 font-medium">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span>تصفح المنصة مباشرة أو ادخل للوحة التاجر</span>
+                </div>
+
+                <div className="flex items-center gap-2.5">
+                  <Link
+                    href="/login"
+                    onClick={handleCloseWelcomeModal}
+                    className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-pink-600 to-rose-500 hover:from-pink-500 hover:to-rose-400 text-white font-bold text-xs sm:text-sm shadow-lg shadow-pink-500/25 transition-all flex items-center gap-2"
+                  >
+                    <span>تجربة المنصة / دخول</span>
+                    <span className="material-symbols-outlined text-[16px]">arrow_back</span>
+                  </Link>
+
+                  <button
+                    onClick={handleCloseWelcomeModal}
+                    className="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-slate-300 font-bold text-xs sm:text-sm transition-all"
+                  >
+                    متابعة التصفح
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
 
 
     </div>
