@@ -4,7 +4,8 @@ import React, { useEffect, useState } from 'react';
 import { insforge } from '@/lib/insforge';
 
 export default function WhatsAppWidget() {
-    const { t } = useI18n();
+    const { lang, t } = useI18n();
+    const isAr = lang === 'ar';
     const [whatsappNumber, setWhatsappNumber] = useState('21300000000');
 
     useEffect(() => {
@@ -25,20 +26,23 @@ export default function WhatsAppWidget() {
         fetchNumber();
     }, []);
 
+    const topText = isAr ? 'تحتاج مساعدة؟' : lang === 'fr' ? "Besoin d'aide ?" : 'Need help?';
+    const bottomText = isAr ? 'تواصل معنا الان' : lang === 'fr' ? 'Contactez-nous' : 'Contact Us Now';
+
     return (
         <a
             href={`https://wa.me/${whatsappNumber}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="fixed bottom-6 left-6 z-50 group flex items-center gap-0 bg-white dark:bg-zinc-900 border border-gray-100 dark:border-zinc-800 p-1.5 rounded-full shadow-2xl transition-all duration-500 hover:scale-[1.02] hover:-translate-y-1"
+            className={`fixed bottom-6 ${isAr ? 'left-6' : 'right-6'} z-50 group flex items-center ${isAr ? 'flex-row' : 'flex-row-reverse'} gap-0 bg-white dark:bg-zinc-900 border border-gray-100 dark:border-zinc-800 p-1.5 rounded-full shadow-2xl transition-all duration-500 hover:scale-[1.02] hover:-translate-y-1`}
             style={{ 
                 boxShadow: "0 20px 40px -10px rgba(233, 30, 99, 0.3)",
             }}
-            title={t("t_ea85c12a")}
-            dir="ltr"
+            title={t("t_ea85c12a") || bottomText}
+            dir={isAr ? "rtl" : "ltr"}
         >
             {/* The Icon Circle */}
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#E91E63] to-[#C2185B] flex items-center justify-center text-white shadow-inner relative z-10">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#E91E63] to-[#C2185B] flex items-center justify-center text-white shadow-inner relative z-10 shrink-0">
                 {/* Ripple effect behind icon */}
                 <div className="absolute inset-0 rounded-full border-2 border-[#E91E63] animate-ping opacity-20"></div>
                 
@@ -55,12 +59,12 @@ export default function WhatsAppWidget() {
             </div>
 
             {/* The Expanding Text */}
-            <div className="overflow-hidden w-0 opacity-0 group-hover:w-[110px] group-hover:opacity-100 group-hover:pl-4 transition-all duration-500 ease-out">
-                <span className="text-[#E91E63] font-black text-[13px] whitespace-nowrap block" dir="rtl">
-                    تحتاج مساعدة؟
+            <div className={`overflow-hidden w-0 opacity-0 group-hover:w-[130px] group-hover:opacity-100 ${isAr ? 'group-hover:pl-4 group-hover:pr-2' : 'group-hover:pr-4 group-hover:pl-2'} transition-all duration-500 ease-out`}>
+                <span className="text-[#E91E63] font-black text-[12px] whitespace-nowrap block">
+                    {topText}
                 </span>
-                <span className="text-gray-400 dark:text-gray-500 text-[10px] font-bold whitespace-nowrap block mt-0.5" dir="rtl">
-                    تواصل معنا الان
+                <span className="text-gray-500 dark:text-gray-400 text-[10px] font-bold whitespace-nowrap block mt-0.5">
+                    {bottomText}
                 </span>
             </div>
         </a>

@@ -17,7 +17,8 @@ interface Message {
 }
 
 export default function MerchantAiAssistant() {
-  const { t } = useI18n();
+  const { lang, t } = useI18n();
+  const isAr = lang === 'ar';
   const { context, loading: contextLoading } = useStoreContext();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
@@ -69,7 +70,9 @@ export default function MerchantAiAssistant() {
         {
           id: 'welcome',
           role: 'assistant',
-          content: `مرحباً بك يا ${context.ownerName || 'شريكنا'}! 👋 أنا مساعدك الذكي في منصة SOUQai.\n\nكيف يمكنني مساعدتك اليوم؟ يمكنك أن تسألني عن مبيعاتك، الطلبات المعلقة، أو المخزون مباشرة!`,
+          content: isAr
+            ? `مرحباً بك يا ${context.ownerName || 'شريكنا'}! 👋 أنا مساعدك الذكي في منصة SOUQai.\n\nكيف يمكنني مساعدتك اليوم؟ يمكنك أن تسألني عن مبيعاتك، الطلبات المعلقة، أو المخزون مباشرة!`
+            : `Welcome ${context.ownerName || 'Partner'}! 👋 I am your SOUQai AI Assistant.\n\nHow can I help you today? Ask me about your store sales, pending orders, or inventory!`,
           timestamp: new Date()
         }
       ]);
@@ -325,7 +328,7 @@ export default function MerchantAiAssistant() {
       {/* Floating Action Button (FAB) */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-24 left-6 z-40 group flex items-center justify-center w-14 h-14 bg-gradient-to-br from-[#E91E63] to-purple-600 dark:from-[#E91E63] dark:to-purple-500 rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 border border-pink-400/30"
+        className={`fixed bottom-24 ${isAr ? 'left-6' : 'right-6'} z-40 group flex items-center justify-center w-14 h-14 bg-gradient-to-br from-[#E91E63] to-purple-600 dark:from-[#E91E63] dark:to-purple-500 rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 border border-pink-400/30`}
         style={{
           boxShadow: '0 10px 25px -5px rgba(233, 30, 99, 0.4), 0 8px 10px -6px rgba(233, 30, 99, 0.4)'
         }}
@@ -333,19 +336,19 @@ export default function MerchantAiAssistant() {
         <span className="absolute inset-0 rounded-full border-2 border-pink-400 animate-ping opacity-25 scale-105 pointer-events-none"></span>
         <Bot className="w-6 h-6 text-white transition-transform duration-500 group-hover:rotate-12" />
         
-        <span className="absolute -top-1 -left-1 w-3.5 h-3.5 bg-emerald-500 rounded-full border-2 border-white dark:border-zinc-950 flex items-center justify-center">
+        <span className={`absolute -top-1 ${isAr ? '-left-1' : '-right-1'} w-3.5 h-3.5 bg-emerald-500 rounded-full border-2 border-white dark:border-zinc-950 flex items-center justify-center`}>
           <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>
         </span>
 
-        <div className="absolute left-full ml-3 bg-slate-900/90 dark:bg-zinc-900/90 text-white text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-200 shadow-xl backdrop-blur-sm border border-white/10 -translate-x-2 group-hover:translate-x-0">
-          المساعد الذكي للتاجر ✨
+        <div className={`absolute ${isAr ? 'left-full ml-3 -translate-x-2 group-hover:translate-x-0' : 'right-full mr-3 translate-x-2 group-hover:translate-x-0'} bg-slate-900/90 dark:bg-zinc-900/90 text-white text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-200 shadow-xl backdrop-blur-sm border border-white/10`}>
+          {isAr ? 'المساعد الذكي للتاجر ✨' : lang === 'fr' ? 'Assistant IA Marchand ✨' : 'Merchant AI Assistant ✨'}
         </div>
       </button>
 
       {/* Slide-over Drawer Panel */}
       <AnimatePresence>
         {isOpen && (
-          <div className="fixed inset-0 z-50 overflow-hidden" dir="rtl">
+          <div className="fixed inset-0 z-50 overflow-hidden" dir={isAr ? "rtl" : "ltr"}>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -354,13 +357,13 @@ export default function MerchantAiAssistant() {
               className="absolute inset-0 bg-black/40 dark:bg-black/70 backdrop-blur-xs transition-opacity"
             />
 
-            <div className="fixed inset-y-0 right-0 md:right-auto md:left-0 max-w-full flex pr-0 md:pr-10">
+            <div className={`fixed inset-y-0 ${isAr ? 'right-0 md:right-auto md:left-0 pr-0 md:pr-10' : 'left-0 md:left-auto md:right-0 pl-0 md:pl-10'} max-w-full flex`}>
               <motion.div
-                initial={{ x: '-100%' }}
+                initial={{ x: isAr ? '-100%' : '100%' }}
                 animate={{ x: 0 }}
-                exit={{ x: '-100%' }}
+                exit={{ x: isAr ? '-100%' : '100%' }}
                 transition={{ type: 'spring', damping: 26, stiffness: 220 }}
-                className="w-screen max-w-md h-full bg-white dark:bg-zinc-950 shadow-2xl flex flex-col border-e border-gray-150 dark:border-zinc-800"
+                className={`w-screen max-w-md h-full bg-white dark:bg-zinc-950 shadow-2xl flex flex-col ${isAr ? 'border-e' : 'border-s'} border-gray-150 dark:border-zinc-800`}
               >
                 {/* Header */}
                 <div className="p-4 border-b border-gray-100 dark:border-zinc-800/80 bg-gradient-to-r from-pink-50/20 to-purple-50/20 dark:from-pink-950/10 dark:to-purple-950/10 flex items-center justify-between">
@@ -370,10 +373,12 @@ export default function MerchantAiAssistant() {
                     </div>
                     <div className="text-start">
                       <div className="flex items-center gap-1.5">
-                        <h3 className="font-bold text-gray-900 dark:text-white text-sm">مساعد SOUQai الذكي</h3>
+                        <h3 className="font-bold text-gray-900 dark:text-white text-sm">{isAr ? 'مساعد SOUQai الذكي' : 'SOUQai AI Assistant'}</h3>
                         <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-ping"></span>
                       </div>
-                      <p className="text-[10px] text-gray-400 dark:text-gray-500 font-bold mt-0.5">مستعد لتنفيذ أوامرك وجلب إحصائياتك</p>
+                      <p className="text-[10px] text-gray-400 dark:text-gray-500 font-bold mt-0.5">
+                        {isAr ? 'مستعد لتنفيذ أوامرك وجلب إحصائياتك' : lang === 'fr' ? 'Prêt à exécuter vos commandes et apporter vos statistiques' : 'Ready to analyze your store and execute tasks'}
+                      </p>
                     </div>
                   </div>
                   <button
