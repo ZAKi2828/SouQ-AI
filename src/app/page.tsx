@@ -2107,17 +2107,11 @@ export default function Page() {
               </button>
 
               {/* Header Badge & Title */}
-              <div className="flex flex-col items-center text-center mb-5">
-                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-pink-500/20 to-purple-500/20 border border-pink-500/30 mb-3">
+              <div className="flex flex-col items-center text-center mb-4">
+                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-pink-500/20 to-purple-500/20 border border-pink-500/30">
                   <span className="text-amber-400 text-sm">👑</span>
                   <span className="text-xs font-bold text-pink-300">Welcome Distinguished Judges & Evaluators</span>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-                  Quick Introduction to <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400">SOUQ AI</span> Platform
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium mt-1 max-w-xl">
-                  Watch this overview video to explore key features, autonomous AI agents, and platform capabilities.
-                </p>
               </div>
 
               {/* Video Player Box */}
