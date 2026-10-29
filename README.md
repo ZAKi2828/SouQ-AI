@@ -34,6 +34,12 @@
 * **Video Demonstration**: [Watch Unlisted Demo Walkthrough](https://youtu.be/placeholder-demo) *(Update link to your YouTube or Google Drive video)*
 * **Repository (Public)**: [https://github.com/ZAKi2828/SouQ-AI](https://github.com/ZAKi2828/SouQ-AI)
 
+* 
+## 🔑 Judge Demo Access
+To allow judges to test the live platform instantly without registering, you can use the following pre-configured test account:
+- **Platform URL**: [https://souqai.net](https://souqai.net)
+- **Email**: `thirduni@thirduni.com`
+- **Password**: `123456`
 ---
 
 ## 🏗️ Clean Project Structure
